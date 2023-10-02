@@ -1,0 +1,27 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid cda85db7-bb0a-4af6-b8df-45fbc5f73f2b)
+
+  (paper "USLetter")
+
+  (title_block
+    (title "1016 Breadboard Power Supply - MCU Power Regulator")
+    (date "2023-10-01")
+    (rev "1")
+    (company "Dan Wilson")
+    (comment 1 "Copyright © 2023, Dan Wilson")
+  )
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "VCC" (shape input) (at 38.1 50.8 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27) bold) (justify right))
+    (uuid 610aad9b-e858-4e4a-bc3e-1cb59cab1ba6)
+  )
+  (hierarchical_label "GND" (shape input) (at 38.1 127 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27) bold) (justify right))
+    (uuid d90234b8-e11a-4735-bf4d-d893f622e0b7)
+  )
+)

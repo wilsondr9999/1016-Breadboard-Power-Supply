@@ -3,7 +3,7 @@
   (descr "BUK6D120-60PX-1")
   (tags "MOSFET (N-Channel)")
   (attr smd)
-  (fp_text reference "Q**" (at 0 -2) (layer "F.SilkS")
+  (fp_text reference "Q**" (at -0.1 -2.3) (layer "F.SilkS")
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     (tstamp ba24e877-ed1f-4dd0-a37e-880036e4a202)
   )

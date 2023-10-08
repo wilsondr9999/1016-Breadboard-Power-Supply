@@ -34,10 +34,10 @@ SMD Components (LCSC)
 ---------------------
 Regulators: TPS62902, adjustable switching regulator, 1A
 MCU: STM32C011F4U6TR
-Ferrite Beads: MMZ1608SHE601ATD25
 P-Ch MOSFET for RPP: BUK6D120-60PX
 Zener for RPP: D3Z10BF-7
-LEDs: LEDC1608X80N
+LED Green: Xinglight XL-1608UGC-04
+
 Switches: C&K PTS636 SK25J SMTR LFS
 
 

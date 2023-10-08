@@ -3,7 +3,7 @@
   (descr "VLS5045")
   (tags "Inductor")
   (attr smd)
-  (fp_text reference "L**" (at 0 0) (layer "F.SilkS")
+  (fp_text reference "L**" (at 0 -4.5) (layer "F.SilkS")
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     (tstamp a7a87b73-97b0-4bcf-85c4-4588d54f49e6)
   )

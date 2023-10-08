@@ -3,7 +3,7 @@
   (descr "SOD123-ren1")
   (tags "Zener Diode")
   (attr smd)
-  (fp_text reference "Z**" (at 0 0) (layer "F.SilkS")
+  (fp_text reference "Z**" (at 0 -2) (layer "F.SilkS")
       (effects (font (size 1.27 1.27) (thickness 0.254)))
     (tstamp 554a0c7d-af1c-4b7b-bf3a-39eb2f0d5545)
   )

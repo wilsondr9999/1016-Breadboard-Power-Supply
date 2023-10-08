@@ -1,0 +1,2453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\EE\Projects\1016 Breadboard Power Supply\KiCAD Project\1016 Breadboard Power Supply.kicad_sch</source>
+    <date>10/8/2023 12:24:57 PM</date>
+    <tool>Eeschema 7.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>1016 Breadboard Power Supply</title>
+        <company>Dan Wilson</company>
+        <rev>1</rev>
+        <date>2023-10-01</date>
+        <source>1016 Breadboard Power Supply.kicad_sch</source>
+        <comment number="1" value="Copyright © 2023, Dan Wilson"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Input Power/" tstamps="/56b9b419-1e91-478f-8f43-bc1fb2a0ef9d/">
+      <title_block>
+        <title>1016 Breadboard Power Supply - Input Power</title>
+        <company>Dan Wilson</company>
+        <rev>1</rev>
+        <date>2023-10-01</date>
+        <source>Input _Power.kicad_sch</source>
+        <comment number="1" value="Copyright © 2023, Dan Wilson"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/MCU Power Regulator/" tstamps="/280adcb7-ede6-4688-bc7e-541657c4a091/">
+      <title_block>
+        <title>1016 Breadboard Power Supply - MCU Power Regulator</title>
+        <company>Dan Wilson</company>
+        <rev>1</rev>
+        <date>2023-10-01</date>
+        <source>MCU Power Regulator.kicad_sch</source>
+        <comment number="1" value="Copyright © 2023, Dan Wilson"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Rail T Power Regulator/" tstamps="/1995aaec-8535-485d-8210-75eb1f946442/">
+      <title_block>
+        <title>1016 Breadboard Power Supply - Rail T Power Regulator</title>
+        <company>Dan Wilson</company>
+        <rev>1</rev>
+        <date>2023-10-01</date>
+        <source>Rail T Power Regulator.kicad_sch</source>
+        <comment number="1" value="Copyright © 2023, Dan Wilson"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/Rail B Power Regulator/" tstamps="/db2e6b67-906b-4487-b3aa-e456085ef032/">
+      <title_block>
+        <title>1016 Breadboard Power Supply - Rail B Power Regulator</title>
+        <company>Dan Wilson</company>
+        <rev>1</rev>
+        <date>2023-10-01</date>
+        <source>Rail B Power Regulator.kicad_sch</source>
+        <comment number="1" value="Copyright © 2023, Dan Wilson"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/MCU Control/" tstamps="/3102d257-e8e7-46c5-aae5-de4b4b6ce591/">
+      <title_block>
+        <title>1016 Breadboard Power Supply - MCU Control</title>
+        <company>Dan Wilson</company>
+        <rev>1</rev>
+        <date>2023-10-01</date>
+        <source>MCU Control.kicad_sch</source>
+        <comment number="1" value="Copyright © 2023, Dan Wilson"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/Rail Output/" tstamps="/14679d3c-a45c-484b-be8b-27fb95b86b68/">
+      <title_block>
+        <title>1016 Breadboard Power Supply - Rail Output</title>
+        <company>Dan Wilson</company>
+        <rev>1</rev>
+        <date>2023-10-01</date>
+        <source>Rail Output.kicad_sch</source>
+        <comment number="1" value="Copyright © 2023, Dan Wilson"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>22µ</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <fields>
+        <field name="Description">Pi Filter Capacitor</field>
+        <field name="Height">1.25</field>
+        <field name="LCSC Part Number">C602037</field>
+        <field name="Manufacturer_Name">Samsung</field>
+        <field name="Manufacturer_Part_Number">CL21A226MAYNNNE</field>
+        <field name="Mouser Part Number">187-CL21A226MAYNNNE</field>
+        <field name="Spec">22µ 25V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="Pi Filter Capacitor"/>
+      <property name="Height" value="1.25"/>
+      <property name="Manufacturer_Name" value="Samsung"/>
+      <property name="Manufacturer_Part_Number" value="CL21A226MAYNNNE"/>
+      <property name="Mouser Part Number" value="187-CL21A226MAYNNNE"/>
+      <property name="Spec" value="22µ 25V"/>
+      <property name="LCSC Part Number" value="C602037"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Input _Power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Input Power/" tstamps="/56b9b419-1e91-478f-8f43-bc1fb2a0ef9d/"/>
+      <tstamps>207b38d0-29e6-4ca1-b40b-1c1d19391c56</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>22µ</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <fields>
+        <field name="Description">Pi Filter Capacitor</field>
+        <field name="Height">1.25</field>
+        <field name="LCSC Part Number">C602037</field>
+        <field name="Manufacturer_Name">Samsung</field>
+        <field name="Manufacturer_Part_Number">CL21A226MAYNNNE</field>
+        <field name="Mouser Part Number">187-CL21A226MAYNNNE</field>
+        <field name="Spec">22µ 25V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="Pi Filter Capacitor"/>
+      <property name="Height" value="1.25"/>
+      <property name="Manufacturer_Name" value="Samsung"/>
+      <property name="Manufacturer_Part_Number" value="CL21A226MAYNNNE"/>
+      <property name="Mouser Part Number" value="187-CL21A226MAYNNNE"/>
+      <property name="Spec" value="22µ 25V"/>
+      <property name="LCSC Part Number" value="C602037"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Input _Power.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Input Power/" tstamps="/56b9b419-1e91-478f-8f43-bc1fb2a0ef9d/"/>
+      <tstamps>3a7f4790-b48d-456e-89e4-04b27160e6db</tstamps>
+    </comp>
+    <comp ref="CR1">
+      <value>SMF17CA</value>
+      <footprint>SOD-123F_LTF</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/240/Littelfuse_TVS_Diode_SMF_Datasheet_pdf-1698977.pdf</datasheet>
+      <fields>
+        <field name="Description">TVS Suppression Diode</field>
+        <field name="Height">1</field>
+        <field name="LCSC Part Number">C3719828</field>
+        <field name="Manufacturer_Name">Littlefuse</field>
+        <field name="Manufacturer_Part_Number">SMF17CA</field>
+        <field name="Mouser Part Number">576-SMF17CA</field>
+        <field name="Spec">Vrw 17V, Vcl 27V</field>
+      </fields>
+      <libsource lib="1016" part="SMF17CA" description=""/>
+      <property name="Description" value="TVS Suppression Diode"/>
+      <property name="Height" value="1"/>
+      <property name="LCSC Part Number" value="C3719828"/>
+      <property name="Manufacturer_Name" value="Littlefuse"/>
+      <property name="Manufacturer_Part_Number" value="SMF17CA"/>
+      <property name="Mouser Part Number" value="576-SMF17CA"/>
+      <property name="Spec" value="Vrw 17V, Vcl 27V"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Input _Power.kicad_sch"/>
+      <property name="ki_keywords" value="SMF17CA"/>
+      <sheetpath names="/Input Power/" tstamps="/56b9b419-1e91-478f-8f43-bc1fb2a0ef9d/"/>
+      <tstamps>2edbe6e8-bbec-4e64-91b8-50d405196952</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>SMD1812B110TF</value>
+      <footprint>FUSE_SMD1812B110TF_YAG</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/YAGO_S_A0012927859_1-2572977.pdf</datasheet>
+      <fields>
+        <field name="Description">PTC Resettable Fuse</field>
+        <field name="Height">1.6</field>
+        <field name="LCSC Part Number">C269149</field>
+        <field name="Manufacturer_Name">Yageo-Brightking</field>
+        <field name="Manufacturer_Part_Number">SMD1812B300TFT</field>
+        <field name="Mouser Part Number">603-SMD1812B300TFT</field>
+        <field name="Spec">Ihold 3A, Itrip 6A</field>
+      </fields>
+      <libsource lib="1016" part="SMD1812B110TF" description=""/>
+      <property name="Description" value="PTC Resettable Fuse"/>
+      <property name="Height" value="1.6"/>
+      <property name="LCSC Part Number" value="C269149"/>
+      <property name="Manufacturer_Name" value="Yageo-Brightking"/>
+      <property name="Manufacturer_Part_Number" value="SMD1812B300TFT"/>
+      <property name="Mouser Part Number" value="603-SMD1812B300TFT"/>
+      <property name="Spec" value="Ihold 3A, Itrip 6A"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Input _Power.kicad_sch"/>
+      <property name="ki_keywords" value="SMD1812B110TF"/>
+      <sheetpath names="/Input Power/" tstamps="/56b9b419-1e91-478f-8f43-bc1fb2a0ef9d/"/>
+      <tstamps>4a600d00-0bb1-4ff0-8348-ede8e40d51f2</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>PJ-102B</value>
+      <footprint>CUI_PJ-102B</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/670/pj_102b-1778740.pdf</datasheet>
+      <fields>
+        <field name="Description">Input Power Jack</field>
+        <field name="Height">11</field>
+        <field name="Manufacturer_Name">CUI Devices</field>
+        <field name="Manufacturer_Part_Number">PJ-102B</field>
+        <field name="Mouser Part Number">490-PJ-102B</field>
+        <field name="Spec">2.5mm, 2.5A, 24V</field>
+      </fields>
+      <libsource lib="1016" part="PJ-102B" description=""/>
+      <property name="Description" value="Input Power Jack"/>
+      <property name="Height" value="11"/>
+      <property name="LCSC Part Number" value=""/>
+      <property name="Manufacturer_Name" value="CUI Devices"/>
+      <property name="Manufacturer_Part_Number" value="PJ-102B"/>
+      <property name="Mouser Part Number" value="490-PJ-102B"/>
+      <property name="Spec" value="2.5mm, 2.5A, 24V"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Input _Power.kicad_sch"/>
+      <sheetpath names="/Input Power/" tstamps="/56b9b419-1e91-478f-8f43-bc1fb2a0ef9d/"/>
+      <tstamps>50e25678-bb37-426e-868f-d6c9f05f06f9</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>VLS5045EX-2R2N</value>
+      <footprint>VLS5045EX330M</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls5045ex_en.pdf</datasheet>
+      <fields>
+        <field name="Description">Pi Filter Inductor</field>
+        <field name="Height">4.5</field>
+        <field name="LCSC Part Number">C434831</field>
+        <field name="Manufacturer_Name">TDK</field>
+        <field name="Manufacturer_Part_Number">VLS5045EX-2R2N</field>
+        <field name="Mouser Part Number">810-VLS5045EX-2R2N</field>
+        <field name="Spec">2.2µH 4.7A 22mΩ</field>
+      </fields>
+      <libsource lib="1016" part="VLS5045EX-2R2N" description="Inductor Power Shielded Wirewound 2.2uH 30% 100KHz Ferrite 4.7A 22mOhm DCR 2020 T/R"/>
+      <property name="Height" value="4.5"/>
+      <property name="Manufacturer_Name" value="TDK"/>
+      <property name="Manufacturer_Part_Number" value="VLS5045EX-2R2N"/>
+      <property name="Mouser Part Number" value="810-VLS5045EX-2R2N"/>
+      <property name="Description" value="Pi Filter Inductor"/>
+      <property name="LCSC Part Number" value="C434831"/>
+      <property name="Spec" value="2.2µH 4.7A 22mΩ"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Input _Power.kicad_sch"/>
+      <property name="ki_description" value="Inductor Power Shielded Wirewound 2.2uH 30% 100KHz Ferrite 4.7A 22mOhm DCR 2020 T/R"/>
+      <sheetpath names="/Input Power/" tstamps="/56b9b419-1e91-478f-8f43-bc1fb2a0ef9d/"/>
+      <tstamps>64e4a0b2-27a0-4f2e-9a49-139921d13b4e</tstamps>
+    </comp>
+    <comp ref="LED1">
+      <value>150060VS75003</value>
+      <footprint>1016:LEDC1608X80N</footprint>
+      <datasheet>https://www.we-online.com/catalog/datasheet/150060VS75003.pdf</datasheet>
+      <fields>
+        <field name="Description">Power On LED</field>
+        <field name="Height">0.7</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">150060VS75003</field>
+        <field name="Mouser Part Number">710-150060VS75003</field>
+        <field name="Spec">Grn 570nm</field>
+      </fields>
+      <libsource lib="1016" part="150060VS75003" description="WURTH ELEKTRONIK - 150060VS75003 - LED, Green, SMD, 0603 [1608 Metric], 30 mA, 2.0 V, 570 nm"/>
+      <property name="Height" value="0.7"/>
+      <property name="Mouser Part Number" value="710-150060VS75003"/>
+      <property name="Manufacturer_Name" value="Wurth Elektronik"/>
+      <property name="Manufacturer_Part_Number" value="150060VS75003"/>
+      <property name="Description" value="Power On LED"/>
+      <property name="Spec" value="Grn 570nm"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Input _Power.kicad_sch"/>
+      <property name="ki_description" value="WURTH ELEKTRONIK - 150060VS75003 - LED, Green, SMD, 0603 [1608 Metric], 30 mA, 2.0 V, 570 nm"/>
+      <sheetpath names="/Input Power/" tstamps="/56b9b419-1e91-478f-8f43-bc1fb2a0ef9d/"/>
+      <tstamps>a9e87705-e060-4e32-8cd1-d522a9ec8bfa</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>BUK6D120-60PX</value>
+      <footprint>1016:BUK6D12060PX</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/916/BUK6D120_60P-1539811.pdf</datasheet>
+      <fields>
+        <field name="Description">RPP MOSFET</field>
+        <field name="Height">0.65</field>
+        <field name="LCSC Part Number">C503628</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">BUK6D120-60PX</field>
+        <field name="Mouser Part Number">771-BUK6D120-60PX</field>
+        <field name="Spec">P-Ch 60V 8A</field>
+      </fields>
+      <libsource lib="1016" part="BUK6D120-60PX" description="MOSFET 60V P-CH TRENCHMOS SOT1220"/>
+      <property name="Height" value="0.65"/>
+      <property name="Manufacturer_Name" value="Nexperia"/>
+      <property name="Manufacturer_Part_Number" value="BUK6D120-60PX"/>
+      <property name="Description" value="RPP MOSFET"/>
+      <property name="LCSC Part Number" value="C503628"/>
+      <property name="Spec" value="P-Ch 60V 8A"/>
+      <property name="Mouser Part Number" value="771-BUK6D120-60PX"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Input _Power.kicad_sch"/>
+      <property name="ki_description" value="MOSFET 60V P-CH TRENCHMOS SOT1220"/>
+      <sheetpath names="/Input Power/" tstamps="/56b9b419-1e91-478f-8f43-bc1fb2a0ef9d/"/>
+      <tstamps>8d97ff7b-7fd7-423d-8946-7b215a287462</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1K91</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf</datasheet>
+      <fields>
+        <field name="Description">RPP Zener Resistor</field>
+        <field name="Height">0.45</field>
+        <field name="LCSC Part Number">C185353</field>
+        <field name="Manufacturer_Name">Yageo</field>
+        <field name="Manufacturer_Part_Number">RC0603FR-071K91L</field>
+        <field name="Mouser Part Number">603-RC0603FR-071K91L</field>
+        <field name="Spec">1K91 100mW</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Description" value="RPP Zener Resistor"/>
+      <property name="LCSC Part Number" value="C185353"/>
+      <property name="Spec" value="1K91 100mW"/>
+      <property name="Height" value="0.45"/>
+      <property name="Manufacturer_Name" value="Yageo"/>
+      <property name="Manufacturer_Part_Number" value="RC0603FR-071K91L"/>
+      <property name="Mouser Part Number" value="603-RC0603FR-071K91L"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Input _Power.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Input Power/" tstamps="/56b9b419-1e91-478f-8f43-bc1fb2a0ef9d/"/>
+      <tstamps>59a17af3-f2fa-40f4-91b8-88e06bac0101</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>2K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf</datasheet>
+      <fields>
+        <field name="Description">Power On LED Resistor</field>
+        <field name="Height">0.5</field>
+        <field name="LCSC Part Number">C114572</field>
+        <field name="Manufacturer_Name">Yageo</field>
+        <field name="Manufacturer_Part_Number">RC0805FR-072KL</field>
+        <field name="Mouser Part Number">603-RC0805FR-072KL</field>
+        <field name="Spec">2K 125mW</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Description" value="Power On LED Resistor"/>
+      <property name="LCSC Part Number" value="C114572"/>
+      <property name="Spec" value="2K 125mW"/>
+      <property name="Height" value="0.5"/>
+      <property name="Manufacturer_Name" value="Yageo"/>
+      <property name="Manufacturer_Part_Number" value="RC0805FR-072KL"/>
+      <property name="Mouser Part Number" value="603-RC0805FR-072KL"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Input _Power.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Input Power/" tstamps="/56b9b419-1e91-478f-8f43-bc1fb2a0ef9d/"/>
+      <tstamps>a952e608-f30e-4f73-8146-002bbca75e0f</tstamps>
+    </comp>
+    <comp ref="Z1">
+      <value>MMSZ5231B-7-F</value>
+      <footprint>SOD3716X145N</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/ds18010.pdf</datasheet>
+      <fields>
+        <field name="Description">RPP Zener Diode</field>
+        <field name="Height">1.0</field>
+        <field name="LCSC Part Number">C85181</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">MMSZ5231B-7-F</field>
+        <field name="Mouser Part Number">621-MMSZ5231B-F</field>
+        <field name="Spec">5.1V 5% 500mW</field>
+      </fields>
+      <libsource lib="1016" part="MMSZ5231B-7-F" description="Zener Diode 5.1V 5% 500mW SOD123 Diodes Inc MMSZ5231B-7-F Zener Diode, 5.1V 5% 0.5 W SMT 2-Pin SOD-123"/>
+      <property name="Height" value="1.0"/>
+      <property name="Manufacturer_Name" value="Diodes Inc."/>
+      <property name="Manufacturer_Part_Number" value="MMSZ5231B-7-F"/>
+      <property name="Mouser Part Number" value="621-MMSZ5231B-F"/>
+      <property name="Description" value="RPP Zener Diode"/>
+      <property name="LCSC Part Number" value="C85181"/>
+      <property name="Spec" value="5.1V 5% 500mW"/>
+      <property name="Sheetname" value="Input Power"/>
+      <property name="Sheetfile" value="Input _Power.kicad_sch"/>
+      <property name="ki_description" value="Zener Diode 5.1V 5% 500mW SOD123 Diodes Inc MMSZ5231B-7-F Zener Diode, 5.1V 5% 0.5 W SMT 2-Pin SOD-123"/>
+      <sheetpath names="/Input Power/" tstamps="/56b9b419-1e91-478f-8f43-bc1fb2a0ef9d/"/>
+      <tstamps>55ae862b-433e-44bc-b6d5-4a1a580bcef4</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <fields>
+        <field name="Description">Input Capacitor</field>
+        <field name="Height">0.8</field>
+        <field name="LCSC Part Number">C96446</field>
+        <field name="Manufacturer_Name">Samsung</field>
+        <field name="Manufacturer_Part_Number">CL10A106MA8NRNC</field>
+        <field name="Mouser Part Number">187-CL10A106MA8NRNC</field>
+        <field name="Spec">10µ 25V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="Input Capacitor"/>
+      <property name="Height" value="0.8"/>
+      <property name="LCSC Part Number" value="C96446"/>
+      <property name="Manufacturer_Name" value="Samsung"/>
+      <property name="Manufacturer_Part_Number" value="CL10A106MA8NRNC"/>
+      <property name="Mouser Part Number" value="187-CL10A106MA8NRNC"/>
+      <property name="Spec" value="10µ 25V"/>
+      <property name="Sheetname" value="MCU Power Regulator"/>
+      <property name="Sheetfile" value="MCU Power Regulator.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MCU Power Regulator/" tstamps="/280adcb7-ede6-4688-bc7e-541657c4a091/"/>
+      <tstamps>0480f0e7-f88e-400d-bc69-8f27ef5a3e46</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <fields>
+        <field name="Description">Bypass Capacitor</field>
+        <field name="Height">0.8</field>
+        <field name="LCSC Part Number">C1590</field>
+        <field name="Manufacturer_Name">Samsung</field>
+        <field name="Manufacturer_Part_Number">CL10B104KA8NNNC</field>
+        <field name="Mouser Part Number">187-CL10B104KA8NNNC</field>
+        <field name="Spec">100n 25V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="Bypass Capacitor"/>
+      <property name="Height" value="0.8"/>
+      <property name="LCSC Part Number" value="C1590"/>
+      <property name="Manufacturer_Name" value="Samsung"/>
+      <property name="Manufacturer_Part_Number" value="CL10B104KA8NNNC"/>
+      <property name="Mouser Part Number" value="187-CL10B104KA8NNNC"/>
+      <property name="Spec" value="100n 25V"/>
+      <property name="Sheetname" value="MCU Power Regulator"/>
+      <property name="Sheetfile" value="MCU Power Regulator.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MCU Power Regulator/" tstamps="/280adcb7-ede6-4688-bc7e-541657c4a091/"/>
+      <tstamps>97ddebf6-f9e4-4e86-b82b-89605984470b</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>3n3</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/UPY_NP0X5R_01005_4V_to_25V_V10-3003057.pdf</datasheet>
+      <fields>
+        <field name="Description">Startup Capacitor</field>
+        <field name="Height">0.8</field>
+        <field name="LCSC Part Number">C519423</field>
+        <field name="Manufacturer_Name">Yageo</field>
+        <field name="Manufacturer_Part_Number">CC0603KRX7R8BB332</field>
+        <field name="Mouser Part Number">603-CC0603KRX7R8BB332</field>
+        <field name="Spec">3n3 25V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="Startup Capacitor"/>
+      <property name="Height" value="0.8"/>
+      <property name="LCSC Part Number" value="C519423"/>
+      <property name="Manufacturer_Name" value="Yageo"/>
+      <property name="Manufacturer_Part_Number" value="CC0603KRX7R8BB332"/>
+      <property name="Mouser Part Number" value="603-CC0603KRX7R8BB332"/>
+      <property name="Spec" value="3n3 25V"/>
+      <property name="Sheetname" value="MCU Power Regulator"/>
+      <property name="Sheetfile" value="MCU Power Regulator.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MCU Power Regulator/" tstamps="/280adcb7-ede6-4688-bc7e-541657c4a091/"/>
+      <tstamps>4d979dd3-cc04-449e-a40d-a07e2f26a043</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>22µ</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10A226MQ8NRNE?qs=X6jEic%2FHinBWGhq5TM88TA%3D%3D</datasheet>
+      <fields>
+        <field name="Description">Output Capacitor</field>
+        <field name="Height">0.8</field>
+        <field name="LCSC Part Number">C159801</field>
+        <field name="Manufacturer_Name">Samsung</field>
+        <field name="Manufacturer_Part_Number">CL10A226MQ8NRNE</field>
+        <field name="Mouser Part Number">187-CL10A226MQ8NRNE</field>
+        <field name="Spec">22µ 6V3</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="Output Capacitor"/>
+      <property name="Height" value="0.8"/>
+      <property name="LCSC Part Number" value="C159801"/>
+      <property name="Manufacturer_Name" value="Samsung"/>
+      <property name="Manufacturer_Part_Number" value="CL10A226MQ8NRNE"/>
+      <property name="Mouser Part Number" value="187-CL10A226MQ8NRNE"/>
+      <property name="Spec" value="22µ 6V3"/>
+      <property name="Sheetname" value="MCU Power Regulator"/>
+      <property name="Sheetfile" value="MCU Power Regulator.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MCU Power Regulator/" tstamps="/280adcb7-ede6-4688-bc7e-541657c4a091/"/>
+      <tstamps>700b5001-c02e-4db7-b94a-8d54d7bf867d</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>VLS5045EX-2R2N</value>
+      <footprint>VLS5045EX330M</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls5045ex_en.pdf</datasheet>
+      <fields>
+        <field name="Height">4.5</field>
+        <field name="LCSC Part Number">C434831</field>
+        <field name="Manufacturer_Name">TDK</field>
+        <field name="Manufacturer_Part_Number">VLS5045EX-2R2N</field>
+        <field name="Mouser Part Number">810-VLS5045EX-2R2N</field>
+        <field name="Spec">2.2µH 4.7A 22mΩ</field>
+      </fields>
+      <libsource lib="1016" part="VLS5045EX-2R2N" description="Inductor Power Shielded Wirewound 2.2uH 30% 100KHz Ferrite 4.7A 22mOhm DCR 2020 T/R"/>
+      <property name="Height" value="4.5"/>
+      <property name="Manufacturer_Name" value="TDK"/>
+      <property name="Manufacturer_Part_Number" value="VLS5045EX-2R2N"/>
+      <property name="Mouser Part Number" value="810-VLS5045EX-2R2N"/>
+      <property name="LCSC Part Number" value="C434831"/>
+      <property name="Spec" value="2.2µH 4.7A 22mΩ"/>
+      <property name="Sheetname" value="MCU Power Regulator"/>
+      <property name="Sheetfile" value="MCU Power Regulator.kicad_sch"/>
+      <property name="ki_description" value="Inductor Power Shielded Wirewound 2.2uH 30% 100KHz Ferrite 4.7A 22mOhm DCR 2020 T/R"/>
+      <sheetpath names="/MCU Power Regulator/" tstamps="/280adcb7-ede6-4688-bc7e-541657c4a091/"/>
+      <tstamps>755af6d9-ca42-4dca-b75c-81e29a739f58</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf</datasheet>
+      <fields>
+        <field name="Description">Feedback Rtop</field>
+        <field name="Height">0.45</field>
+        <field name="LCSC Part Number">C14675</field>
+        <field name="Manufacturer_Name">Yageo</field>
+        <field name="Manufacturer_Part_Number">RC0603FR-07100KL</field>
+        <field name="Mouser Part Number">603-RC0603FR-07100KL</field>
+        <field name="Spec">100K 100mW</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Description" value="Feedback Rtop"/>
+      <property name="Height" value="0.45"/>
+      <property name="LCSC Part Number" value="C14675"/>
+      <property name="Manufacturer_Name" value="Yageo"/>
+      <property name="Manufacturer_Part_Number" value="RC0603FR-07100KL"/>
+      <property name="Mouser Part Number" value="603-RC0603FR-07100KL"/>
+      <property name="Spec" value="100K 100mW"/>
+      <property name="Sheetname" value="MCU Power Regulator"/>
+      <property name="Sheetfile" value="MCU Power Regulator.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MCU Power Regulator/" tstamps="/280adcb7-ede6-4688-bc7e-541657c4a091/"/>
+      <tstamps>313541e1-b120-4da0-a23e-36810ac351ea</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>31K6</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf</datasheet>
+      <fields>
+        <field name="Description">Feedback Rbot</field>
+        <field name="Height">0.45</field>
+        <field name="LCSC Part Number">C185339</field>
+        <field name="Manufacturer_Name">Yageo</field>
+        <field name="Manufacturer_Part_Number">RC0603FR-0731K6L</field>
+        <field name="Mouser Part Number">603-RC0603FR-0731K6L</field>
+        <field name="Spec">31K6 100mW</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Description" value="Feedback Rbot"/>
+      <property name="Height" value="0.45"/>
+      <property name="LCSC Part Number" value="C185339"/>
+      <property name="Manufacturer_Name" value="Yageo"/>
+      <property name="Manufacturer_Part_Number" value="RC0603FR-0731K6L"/>
+      <property name="Mouser Part Number" value="603-RC0603FR-0731K6L"/>
+      <property name="Spec" value="31K6 100mW"/>
+      <property name="Sheetname" value="MCU Power Regulator"/>
+      <property name="Sheetfile" value="MCU Power Regulator.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MCU Power Regulator/" tstamps="/280adcb7-ede6-4688-bc7e-541657c4a091/"/>
+      <tstamps>0b1ebbd6-a735-4acd-9d05-7271c5d5c331</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1K6</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf</datasheet>
+      <fields>
+        <field name="Description">Output Discharge Resistor</field>
+        <field name="Height">0.45</field>
+        <field name="LCSC Part Number">C165489</field>
+        <field name="Manufacturer_Name">Yageo</field>
+        <field name="Manufacturer_Part_Number">RC0603FR-071K6L</field>
+        <field name="Mouser Part Number">603-RC0603FR-071K6L</field>
+        <field name="Spec">1K6 100mW</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Description" value="Output Discharge Resistor"/>
+      <property name="Height" value="0.45"/>
+      <property name="LCSC Part Number" value="C165489"/>
+      <property name="Manufacturer_Name" value="Yageo"/>
+      <property name="Manufacturer_Part_Number" value="RC0603FR-071K6L"/>
+      <property name="Mouser Part Number" value="603-RC0603FR-071K6L"/>
+      <property name="Spec" value="1K6 100mW"/>
+      <property name="Sheetname" value="MCU Power Regulator"/>
+      <property name="Sheetfile" value="MCU Power Regulator.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MCU Power Regulator/" tstamps="/280adcb7-ede6-4688-bc7e-541657c4a091/"/>
+      <tstamps>96718a9d-0840-458d-b70b-cb5df543693d</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TPS62130RGTR</value>
+      <footprint>QFN50P300X300X100-17N-D</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tps62130.pdf</datasheet>
+      <fields>
+        <field name="Description">MCU Regulator</field>
+        <field name="Height">1</field>
+        <field name="LCSC Part Number">C43590</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TPS62130RGTR</field>
+        <field name="Mouser Part Number">595-TPS62130RGTR</field>
+        <field name="Spec">2.5MHz Buck Reg</field>
+      </fields>
+      <libsource lib="1016" part="TPS62130RGTR" description="3-17V 3A Step-Down Converter with DCS-Control in 3x3 QFN Package"/>
+      <property name="Height" value="1"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="TPS62130RGTR"/>
+      <property name="Mouser Part Number" value="595-TPS62130RGTR"/>
+      <property name="Description" value="MCU Regulator"/>
+      <property name="LCSC Part Number" value="C43590"/>
+      <property name="Spec" value="2.5MHz Buck Reg"/>
+      <property name="Sheetname" value="MCU Power Regulator"/>
+      <property name="Sheetfile" value="MCU Power Regulator.kicad_sch"/>
+      <property name="ki_description" value="3-17V 3A Step-Down Converter with DCS-Control in 3x3 QFN Package"/>
+      <sheetpath names="/MCU Power Regulator/" tstamps="/280adcb7-ede6-4688-bc7e-541657c4a091/"/>
+      <tstamps>dd7998c9-7970-4e70-be92-f21affc792ea</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>10µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <fields>
+        <field name="Description">Input Capacitor</field>
+        <field name="Height">0.8</field>
+        <field name="LCSC Part Number">C96446</field>
+        <field name="Manufacturer_Name">Samsung</field>
+        <field name="Manufacturer_Part_Number">CL10A106MA8NRNC</field>
+        <field name="Mouser Part Number">187-CL10A106MA8NRNC</field>
+        <field name="Spec">10µ 25V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="Input Capacitor"/>
+      <property name="Height" value="0.8"/>
+      <property name="LCSC Part Number" value="C96446"/>
+      <property name="Manufacturer_Name" value="Samsung"/>
+      <property name="Manufacturer_Part_Number" value="CL10A106MA8NRNC"/>
+      <property name="Mouser Part Number" value="187-CL10A106MA8NRNC"/>
+      <property name="Spec" value="10µ 25V"/>
+      <property name="Sheetname" value="Rail T Power Regulator"/>
+      <property name="Sheetfile" value="Rail T Power Regulator.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Rail T Power Regulator/" tstamps="/1995aaec-8535-485d-8210-75eb1f946442/"/>
+      <tstamps>33ac5430-2728-4a8c-9eea-4e95dab0b842</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <fields>
+        <field name="Description">Bypass Capacitor</field>
+        <field name="Height">0.8</field>
+        <field name="LCSC Part Number">C1590</field>
+        <field name="Manufacturer_Name">Samsung</field>
+        <field name="Manufacturer_Part_Number">CL10B104KA8NNNC</field>
+        <field name="Mouser Part Number">187-CL10B104KA8NNNC</field>
+        <field name="Spec">100n 25V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="Bypass Capacitor"/>
+      <property name="Height" value="0.8"/>
+      <property name="LCSC Part Number" value="C1590"/>
+      <property name="Manufacturer_Name" value="Samsung"/>
+      <property name="Manufacturer_Part_Number" value="CL10B104KA8NNNC"/>
+      <property name="Mouser Part Number" value="187-CL10B104KA8NNNC"/>
+      <property name="Spec" value="100n 25V"/>
+      <property name="Sheetname" value="Rail T Power Regulator"/>
+      <property name="Sheetfile" value="Rail T Power Regulator.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Rail T Power Regulator/" tstamps="/1995aaec-8535-485d-8210-75eb1f946442/"/>
+      <tstamps>5c18431a-c037-4e68-9882-9e2f20a91cf8</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>3n3</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/UPY_NP0X5R_01005_4V_to_25V_V10-3003057.pdf</datasheet>
+      <fields>
+        <field name="Description">Startup Capacitor</field>
+        <field name="Height">0.8</field>
+        <field name="LCSC Part Number">C519423</field>
+        <field name="Manufacturer_Name">Yageo</field>
+        <field name="Manufacturer_Part_Number">CC0603KRX7R8BB332</field>
+        <field name="Mouser Part Number">603-CC0603KRX7R8BB332</field>
+        <field name="Spec">3n3 25V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="Startup Capacitor"/>
+      <property name="Height" value="0.8"/>
+      <property name="LCSC Part Number" value="C519423"/>
+      <property name="Manufacturer_Name" value="Yageo"/>
+      <property name="Manufacturer_Part_Number" value="CC0603KRX7R8BB332"/>
+      <property name="Mouser Part Number" value="603-CC0603KRX7R8BB332"/>
+      <property name="Spec" value="3n3 25V"/>
+      <property name="Sheetname" value="Rail T Power Regulator"/>
+      <property name="Sheetfile" value="Rail T Power Regulator.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Rail T Power Regulator/" tstamps="/1995aaec-8535-485d-8210-75eb1f946442/"/>
+      <tstamps>eb51582f-2d27-4b1f-9c74-b103c2a153c3</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>22µ</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10A226MQ8NRNE?qs=X6jEic%2FHinBWGhq5TM88TA%3D%3D</datasheet>
+      <fields>
+        <field name="Description">Output Capacitor</field>
+        <field name="Height">0.8</field>
+        <field name="LCSC Part Number">C159801</field>
+        <field name="Manufacturer_Name">Samsung</field>
+        <field name="Manufacturer_Part_Number">CL10A226MQ8NRNE</field>
+        <field name="Mouser Part Number">187-CL10A226MQ8NRNE</field>
+        <field name="Spec">22µ 6V3</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="Output Capacitor"/>
+      <property name="Height" value="0.8"/>
+      <property name="LCSC Part Number" value="C159801"/>
+      <property name="Manufacturer_Name" value="Samsung"/>
+      <property name="Manufacturer_Part_Number" value="CL10A226MQ8NRNE"/>
+      <property name="Mouser Part Number" value="187-CL10A226MQ8NRNE"/>
+      <property name="Spec" value="22µ 6V3"/>
+      <property name="Sheetname" value="Rail T Power Regulator"/>
+      <property name="Sheetfile" value="Rail T Power Regulator.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Rail T Power Regulator/" tstamps="/1995aaec-8535-485d-8210-75eb1f946442/"/>
+      <tstamps>9bafcaf0-b919-4241-bfcc-8a9de109de9a</tstamps>
+    </comp>
+    <comp ref="L3">
+      <value>VLS5045EX-2R2N</value>
+      <footprint>VLS5045EX330M</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls5045ex_en.pdf</datasheet>
+      <fields>
+        <field name="Height">4.5</field>
+        <field name="LCSC Part Number">C434831</field>
+        <field name="Manufacturer_Name">TDK</field>
+        <field name="Manufacturer_Part_Number">VLS5045EX-2R2N</field>
+        <field name="Mouser Part Number">810-VLS5045EX-2R2N</field>
+        <field name="Spec">2.2µH 4.7A 22mΩ</field>
+      </fields>
+      <libsource lib="1016" part="VLS5045EX-2R2N" description="Inductor Power Shielded Wirewound 2.2uH 30% 100KHz Ferrite 4.7A 22mOhm DCR 2020 T/R"/>
+      <property name="Height" value="4.5"/>
+      <property name="Manufacturer_Name" value="TDK"/>
+      <property name="Manufacturer_Part_Number" value="VLS5045EX-2R2N"/>
+      <property name="Mouser Part Number" value="810-VLS5045EX-2R2N"/>
+      <property name="LCSC Part Number" value="C434831"/>
+      <property name="Spec" value="2.2µH 4.7A 22mΩ"/>
+      <property name="Sheetname" value="Rail T Power Regulator"/>
+      <property name="Sheetfile" value="Rail T Power Regulator.kicad_sch"/>
+      <property name="ki_description" value="Inductor Power Shielded Wirewound 2.2uH 30% 100KHz Ferrite 4.7A 22mOhm DCR 2020 T/R"/>
+      <sheetpath names="/Rail T Power Regulator/" tstamps="/1995aaec-8535-485d-8210-75eb1f946442/"/>
+      <tstamps>7e2e90fe-26fc-4575-80be-92edd0cfd146</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1K6</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf</datasheet>
+      <fields>
+        <field name="Description">Output Discharge Resistor</field>
+        <field name="Height">0.45</field>
+        <field name="LCSC Part Number">C165489</field>
+        <field name="Manufacturer_Name">Yageo</field>
+        <field name="Manufacturer_Part_Number">RC0603FR-071K6L</field>
+        <field name="Mouser Part Number">603-RC0603FR-071K6L</field>
+        <field name="Spec">1K6 100mW</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Description" value="Output Discharge Resistor"/>
+      <property name="Height" value="0.45"/>
+      <property name="LCSC Part Number" value="C165489"/>
+      <property name="Manufacturer_Name" value="Yageo"/>
+      <property name="Manufacturer_Part_Number" value="RC0603FR-071K6L"/>
+      <property name="Mouser Part Number" value="603-RC0603FR-071K6L"/>
+      <property name="Spec" value="1K6 100mW"/>
+      <property name="Sheetname" value="Rail T Power Regulator"/>
+      <property name="Sheetfile" value="Rail T Power Regulator.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Rail T Power Regulator/" tstamps="/1995aaec-8535-485d-8210-75eb1f946442/"/>
+      <tstamps>54939d7a-1432-4ae8-b978-980096749ad9</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>220K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf</datasheet>
+      <fields>
+        <field name="Description">Feedback Rtop</field>
+        <field name="Height">0.45</field>
+        <field name="LCSC Part Number">C123420</field>
+        <field name="Manufacturer_Name">Yageo</field>
+        <field name="Manufacturer_Part_Number">RC0603FR-07220KL</field>
+        <field name="Mouser Part Number">603-RC0603FR-07220KL</field>
+        <field name="Spec">220K 100mW</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Description" value="Feedback Rtop"/>
+      <property name="Height" value="0.45"/>
+      <property name="LCSC Part Number" value="C123420"/>
+      <property name="Manufacturer_Name" value="Yageo"/>
+      <property name="Manufacturer_Part_Number" value="RC0603FR-07220KL"/>
+      <property name="Mouser Part Number" value="603-RC0603FR-07220KL"/>
+      <property name="Spec" value="220K 100mW"/>
+      <property name="Sheetname" value="Rail T Power Regulator"/>
+      <property name="Sheetfile" value="Rail T Power Regulator.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Rail T Power Regulator/" tstamps="/1995aaec-8535-485d-8210-75eb1f946442/"/>
+      <tstamps>6c558d3f-c092-455e-9c91-ee026c0cd42b</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>42K2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf</datasheet>
+      <fields>
+        <field name="Description">Feedback Rbot</field>
+        <field name="Height">0.45</field>
+        <field name="LCSC Part Number">C273741</field>
+        <field name="Manufacturer_Name">Yageo</field>
+        <field name="Manufacturer_Part_Number">RC0603FR-0742K2L</field>
+        <field name="Mouser Part Number">603-RC0603FR-0742K2L</field>
+        <field name="Spec">42K2 100mW</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Description" value="Feedback Rbot"/>
+      <property name="Height" value="0.45"/>
+      <property name="LCSC Part Number" value="C273741"/>
+      <property name="Manufacturer_Name" value="Yageo"/>
+      <property name="Manufacturer_Part_Number" value="RC0603FR-0742K2L"/>
+      <property name="Mouser Part Number" value="603-RC0603FR-0742K2L"/>
+      <property name="Spec" value="42K2 100mW"/>
+      <property name="Sheetname" value="Rail T Power Regulator"/>
+      <property name="Sheetfile" value="Rail T Power Regulator.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Rail T Power Regulator/" tstamps="/1995aaec-8535-485d-8210-75eb1f946442/"/>
+      <tstamps>0a48f932-8816-488a-8d1b-95a524140384</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>28K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf</datasheet>
+      <fields>
+        <field name="Description">Feedback Rbot</field>
+        <field name="Height">0.45</field>
+        <field name="LCSC Part Number">C273777</field>
+        <field name="Manufacturer_Name">Yageo</field>
+        <field name="Manufacturer_Part_Number">RC0603FR-0728KL</field>
+        <field name="Mouser Part Number">603-RC0603FR-0728KL</field>
+        <field name="Spec">28K 100mW</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Description" value="Feedback Rbot"/>
+      <property name="Height" value="0.45"/>
+      <property name="LCSC Part Number" value="C273777"/>
+      <property name="Manufacturer_Name" value="Yageo"/>
+      <property name="Manufacturer_Part_Number" value="RC0603FR-0728KL"/>
+      <property name="Mouser Part Number" value="603-RC0603FR-0728KL"/>
+      <property name="Spec" value="28K 100mW"/>
+      <property name="Sheetname" value="Rail T Power Regulator"/>
+      <property name="Sheetfile" value="Rail T Power Regulator.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Rail T Power Regulator/" tstamps="/1995aaec-8535-485d-8210-75eb1f946442/"/>
+      <tstamps>3f0f9121-7630-439b-9f0a-84f0c533c5ac</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TPS62130RGTR</value>
+      <footprint>QFN50P300X300X100-17N-D</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tps62130.pdf</datasheet>
+      <fields>
+        <field name="Description">MCU Regulator</field>
+        <field name="Height">1</field>
+        <field name="LCSC Part Number">C43590</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TPS62130RGTR</field>
+        <field name="Mouser Part Number">595-TPS62130RGTR</field>
+        <field name="Spec">2.5MHz Buck Reg</field>
+      </fields>
+      <libsource lib="1016" part="TPS62130RGTR" description="3-17V 3A Step-Down Converter with DCS-Control in 3x3 QFN Package"/>
+      <property name="Height" value="1"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="TPS62130RGTR"/>
+      <property name="Mouser Part Number" value="595-TPS62130RGTR"/>
+      <property name="Description" value="MCU Regulator"/>
+      <property name="LCSC Part Number" value="C43590"/>
+      <property name="Spec" value="2.5MHz Buck Reg"/>
+      <property name="Sheetname" value="Rail T Power Regulator"/>
+      <property name="Sheetfile" value="Rail T Power Regulator.kicad_sch"/>
+      <property name="ki_description" value="3-17V 3A Step-Down Converter with DCS-Control in 3x3 QFN Package"/>
+      <sheetpath names="/Rail T Power Regulator/" tstamps="/1995aaec-8535-485d-8210-75eb1f946442/"/>
+      <tstamps>f51395e0-cfec-4f1d-9573-bc54c88c66c1</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>10µF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <fields>
+        <field name="Description">Input Capacitor</field>
+        <field name="Height">0.8</field>
+        <field name="LCSC Part Number">C96446</field>
+        <field name="Manufacturer_Name">Samsung</field>
+        <field name="Manufacturer_Part_Number">CL10A106MA8NRNC</field>
+        <field name="Mouser Part Number">187-CL10A106MA8NRNC</field>
+        <field name="Spec">10µ 25V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="Input Capacitor"/>
+      <property name="Height" value="0.8"/>
+      <property name="LCSC Part Number" value="C96446"/>
+      <property name="Manufacturer_Name" value="Samsung"/>
+      <property name="Manufacturer_Part_Number" value="CL10A106MA8NRNC"/>
+      <property name="Mouser Part Number" value="187-CL10A106MA8NRNC"/>
+      <property name="Spec" value="10µ 25V"/>
+      <property name="Sheetname" value="Rail B Power Regulator"/>
+      <property name="Sheetfile" value="Rail B Power Regulator.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Rail B Power Regulator/" tstamps="/db2e6b67-906b-4487-b3aa-e456085ef032/"/>
+      <tstamps>428db2ad-57c2-45df-a81e-b55f8fccc454</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <fields>
+        <field name="Description">Bypass Capacitor</field>
+        <field name="Height">0.8</field>
+        <field name="LCSC Part Number">C1590</field>
+        <field name="Manufacturer_Name">Samsung</field>
+        <field name="Manufacturer_Part_Number">CL10B104KA8NNNC</field>
+        <field name="Mouser Part Number">187-CL10B104KA8NNNC</field>
+        <field name="Spec">100n 25V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="Bypass Capacitor"/>
+      <property name="Height" value="0.8"/>
+      <property name="LCSC Part Number" value="C1590"/>
+      <property name="Manufacturer_Name" value="Samsung"/>
+      <property name="Manufacturer_Part_Number" value="CL10B104KA8NNNC"/>
+      <property name="Mouser Part Number" value="187-CL10B104KA8NNNC"/>
+      <property name="Spec" value="100n 25V"/>
+      <property name="Sheetname" value="Rail B Power Regulator"/>
+      <property name="Sheetfile" value="Rail B Power Regulator.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Rail B Power Regulator/" tstamps="/db2e6b67-906b-4487-b3aa-e456085ef032/"/>
+      <tstamps>66fd43c6-38d6-4a99-b09b-8e64aa31d70f</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>3n3</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/UPY_NP0X5R_01005_4V_to_25V_V10-3003057.pdf</datasheet>
+      <fields>
+        <field name="Description">Startup Capacitor</field>
+        <field name="Height">0.8</field>
+        <field name="LCSC Part Number">C519423</field>
+        <field name="Manufacturer_Name">Yageo</field>
+        <field name="Manufacturer_Part_Number">CC0603KRX7R8BB332</field>
+        <field name="Mouser Part Number">603-CC0603KRX7R8BB332</field>
+        <field name="Spec">3n3 25V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="Startup Capacitor"/>
+      <property name="Height" value="0.8"/>
+      <property name="LCSC Part Number" value="C519423"/>
+      <property name="Manufacturer_Name" value="Yageo"/>
+      <property name="Manufacturer_Part_Number" value="CC0603KRX7R8BB332"/>
+      <property name="Mouser Part Number" value="603-CC0603KRX7R8BB332"/>
+      <property name="Spec" value="3n3 25V"/>
+      <property name="Sheetname" value="Rail B Power Regulator"/>
+      <property name="Sheetfile" value="Rail B Power Regulator.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Rail B Power Regulator/" tstamps="/db2e6b67-906b-4487-b3aa-e456085ef032/"/>
+      <tstamps>d5bb497c-7128-4c47-9f72-4b6185e54757</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>22µ</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/ProductDetail/Samsung-Electro-Mechanics/CL10A226MQ8NRNE?qs=X6jEic%2FHinBWGhq5TM88TA%3D%3D</datasheet>
+      <fields>
+        <field name="Description">Output Capacitor</field>
+        <field name="Height">0.8</field>
+        <field name="LCSC Part Number">C159801</field>
+        <field name="Manufacturer_Name">Samsung</field>
+        <field name="Manufacturer_Part_Number">CL10A226MQ8NRNE</field>
+        <field name="Mouser Part Number">187-CL10A226MQ8NRNE</field>
+        <field name="Spec">22µ 6V3</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="Output Capacitor"/>
+      <property name="Height" value="0.8"/>
+      <property name="LCSC Part Number" value="C159801"/>
+      <property name="Manufacturer_Name" value="Samsung"/>
+      <property name="Manufacturer_Part_Number" value="CL10A226MQ8NRNE"/>
+      <property name="Mouser Part Number" value="187-CL10A226MQ8NRNE"/>
+      <property name="Spec" value="22µ 6V3"/>
+      <property name="Sheetname" value="Rail B Power Regulator"/>
+      <property name="Sheetfile" value="Rail B Power Regulator.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Rail B Power Regulator/" tstamps="/db2e6b67-906b-4487-b3aa-e456085ef032/"/>
+      <tstamps>86f67e7c-a787-43f0-a83a-3d0a87134b93</tstamps>
+    </comp>
+    <comp ref="L4">
+      <value>VLS5045EX-2R2N</value>
+      <footprint>VLS5045EX330M</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls5045ex_en.pdf</datasheet>
+      <fields>
+        <field name="Height">4.5</field>
+        <field name="LCSC Part Number">C434831</field>
+        <field name="Manufacturer_Name">TDK</field>
+        <field name="Manufacturer_Part_Number">VLS5045EX-2R2N</field>
+        <field name="Mouser Part Number">810-VLS5045EX-2R2N</field>
+        <field name="Spec">2.2µH 4.7A 22mΩ</field>
+      </fields>
+      <libsource lib="1016" part="VLS5045EX-2R2N" description="Inductor Power Shielded Wirewound 2.2uH 30% 100KHz Ferrite 4.7A 22mOhm DCR 2020 T/R"/>
+      <property name="Height" value="4.5"/>
+      <property name="Manufacturer_Name" value="TDK"/>
+      <property name="Manufacturer_Part_Number" value="VLS5045EX-2R2N"/>
+      <property name="Mouser Part Number" value="810-VLS5045EX-2R2N"/>
+      <property name="LCSC Part Number" value="C434831"/>
+      <property name="Spec" value="2.2µH 4.7A 22mΩ"/>
+      <property name="Sheetname" value="Rail B Power Regulator"/>
+      <property name="Sheetfile" value="Rail B Power Regulator.kicad_sch"/>
+      <property name="ki_description" value="Inductor Power Shielded Wirewound 2.2uH 30% 100KHz Ferrite 4.7A 22mOhm DCR 2020 T/R"/>
+      <sheetpath names="/Rail B Power Regulator/" tstamps="/db2e6b67-906b-4487-b3aa-e456085ef032/"/>
+      <tstamps>665f0bd8-437c-42c7-b5ba-8d854233476b</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>1K6</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf</datasheet>
+      <fields>
+        <field name="Description">Output Discharge Resistor</field>
+        <field name="Height">0.45</field>
+        <field name="LCSC Part Number">C165489</field>
+        <field name="Manufacturer_Name">Yageo</field>
+        <field name="Manufacturer_Part_Number">RC0603FR-071K6L</field>
+        <field name="Mouser Part Number">603-RC0603FR-071K6L</field>
+        <field name="Spec">1K6 100mW</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Description" value="Output Discharge Resistor"/>
+      <property name="Height" value="0.45"/>
+      <property name="LCSC Part Number" value="C165489"/>
+      <property name="Manufacturer_Name" value="Yageo"/>
+      <property name="Manufacturer_Part_Number" value="RC0603FR-071K6L"/>
+      <property name="Mouser Part Number" value="603-RC0603FR-071K6L"/>
+      <property name="Spec" value="1K6 100mW"/>
+      <property name="Sheetname" value="Rail B Power Regulator"/>
+      <property name="Sheetfile" value="Rail B Power Regulator.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Rail B Power Regulator/" tstamps="/db2e6b67-906b-4487-b3aa-e456085ef032/"/>
+      <tstamps>69f1694c-3d97-448e-911b-0b2e1e2f6438</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>220K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf</datasheet>
+      <fields>
+        <field name="Description">Feedback Rtop</field>
+        <field name="Height">0.45</field>
+        <field name="LCSC Part Number">C123420</field>
+        <field name="Manufacturer_Name">Yageo</field>
+        <field name="Manufacturer_Part_Number">RC0603FR-07220KL</field>
+        <field name="Mouser Part Number">603-RC0603FR-07220KL</field>
+        <field name="Spec">220K 100mW</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Description" value="Feedback Rtop"/>
+      <property name="Height" value="0.45"/>
+      <property name="LCSC Part Number" value="C123420"/>
+      <property name="Manufacturer_Name" value="Yageo"/>
+      <property name="Manufacturer_Part_Number" value="RC0603FR-07220KL"/>
+      <property name="Mouser Part Number" value="603-RC0603FR-07220KL"/>
+      <property name="Spec" value="220K 100mW"/>
+      <property name="Sheetname" value="Rail B Power Regulator"/>
+      <property name="Sheetfile" value="Rail B Power Regulator.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Rail B Power Regulator/" tstamps="/db2e6b67-906b-4487-b3aa-e456085ef032/"/>
+      <tstamps>b7f3cf44-2f09-4e71-a151-6149ca7e46de</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>42K2</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf</datasheet>
+      <fields>
+        <field name="Description">Feedback Rbot</field>
+        <field name="Height">0.45</field>
+        <field name="LCSC Part Number">C273741</field>
+        <field name="Manufacturer_Name">Yageo</field>
+        <field name="Manufacturer_Part_Number">RC0603FR-0742K2L</field>
+        <field name="Mouser Part Number">603-RC0603FR-0742K2L</field>
+        <field name="Spec">42K2 100mW</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Description" value="Feedback Rbot"/>
+      <property name="Height" value="0.45"/>
+      <property name="LCSC Part Number" value="C273741"/>
+      <property name="Manufacturer_Name" value="Yageo"/>
+      <property name="Manufacturer_Part_Number" value="RC0603FR-0742K2L"/>
+      <property name="Mouser Part Number" value="603-RC0603FR-0742K2L"/>
+      <property name="Spec" value="42K2 100mW"/>
+      <property name="Sheetname" value="Rail B Power Regulator"/>
+      <property name="Sheetfile" value="Rail B Power Regulator.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Rail B Power Regulator/" tstamps="/db2e6b67-906b-4487-b3aa-e456085ef032/"/>
+      <tstamps>d682d32f-e0a9-4231-986e-ce099b6b4e75</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>28K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf</datasheet>
+      <fields>
+        <field name="Description">Feedback Rbot</field>
+        <field name="Height">0.45</field>
+        <field name="LCSC Part Number">C273777</field>
+        <field name="Manufacturer_Name">Yageo</field>
+        <field name="Manufacturer_Part_Number">RC0603FR-0728KL</field>
+        <field name="Mouser Part Number">603-RC0603FR-0728KL</field>
+        <field name="Spec">28K 100mW</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Description" value="Feedback Rbot"/>
+      <property name="Height" value="0.45"/>
+      <property name="LCSC Part Number" value="C273777"/>
+      <property name="Manufacturer_Name" value="Yageo"/>
+      <property name="Manufacturer_Part_Number" value="RC0603FR-0728KL"/>
+      <property name="Mouser Part Number" value="603-RC0603FR-0728KL"/>
+      <property name="Spec" value="28K 100mW"/>
+      <property name="Sheetname" value="Rail B Power Regulator"/>
+      <property name="Sheetfile" value="Rail B Power Regulator.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Rail B Power Regulator/" tstamps="/db2e6b67-906b-4487-b3aa-e456085ef032/"/>
+      <tstamps>fd98ab64-215f-40d5-a855-4e7456a76cce</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TPS62130RGTR</value>
+      <footprint>QFN50P300X300X100-17N-D</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tps62130.pdf</datasheet>
+      <fields>
+        <field name="Description">MCU Regulator</field>
+        <field name="Height">1</field>
+        <field name="LCSC Part Number">C43590</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TPS62130RGTR</field>
+        <field name="Mouser Part Number">595-TPS62130RGTR</field>
+        <field name="Spec">2.5MHz Buck Reg</field>
+      </fields>
+      <libsource lib="1016" part="TPS62130RGTR" description="3-17V 3A Step-Down Converter with DCS-Control in 3x3 QFN Package"/>
+      <property name="Height" value="1"/>
+      <property name="Manufacturer_Name" value="Texas Instruments"/>
+      <property name="Manufacturer_Part_Number" value="TPS62130RGTR"/>
+      <property name="Mouser Part Number" value="595-TPS62130RGTR"/>
+      <property name="Description" value="MCU Regulator"/>
+      <property name="LCSC Part Number" value="C43590"/>
+      <property name="Spec" value="2.5MHz Buck Reg"/>
+      <property name="Sheetname" value="Rail B Power Regulator"/>
+      <property name="Sheetfile" value="Rail B Power Regulator.kicad_sch"/>
+      <property name="ki_description" value="3-17V 3A Step-Down Converter with DCS-Control in 3x3 QFN Package"/>
+      <sheetpath names="/Rail B Power Regulator/" tstamps="/db2e6b67-906b-4487-b3aa-e456085ef032/"/>
+      <tstamps>3097d24b-6beb-45ef-891e-a3ebf4f12d74</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/585/MLCC-1837944.pdf</datasheet>
+      <fields>
+        <field name="Description">Bypass Capacitor</field>
+        <field name="Height">0.8</field>
+        <field name="LCSC Part Number">C1590</field>
+        <field name="Manufacturer_Name">Samsung</field>
+        <field name="Manufacturer_Part_Number">CL10B104KA8NNNC</field>
+        <field name="Mouser Part Number">187-CL10B104KA8NNNC</field>
+        <field name="Spec">100n 25V</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Description" value="Bypass Capacitor"/>
+      <property name="Height" value="0.8"/>
+      <property name="LCSC Part Number" value="C1590"/>
+      <property name="Manufacturer_Name" value="Samsung"/>
+      <property name="Manufacturer_Part_Number" value="CL10B104KA8NNNC"/>
+      <property name="Mouser Part Number" value="187-CL10B104KA8NNNC"/>
+      <property name="Spec" value="100n 25V"/>
+      <property name="Sheetname" value="MCU Control"/>
+      <property name="Sheetfile" value="MCU Control.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/MCU Control/" tstamps="/3102d257-e8e7-46c5-aae5-de4b4b6ce591/"/>
+      <tstamps>b3b89d60-a49e-4d3e-8fc3-f2b095ed6118</tstamps>
+    </comp>
+    <comp ref="LED2">
+      <value>150060RS75003</value>
+      <footprint>1016:LEDC1608X80N</footprint>
+      <datasheet>https://www.we-online.com/catalog/datasheet/150060RS75003.pdf</datasheet>
+      <fields>
+        <field name="Description">Error LED</field>
+        <field name="Height">0.7</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">150060RS75003</field>
+        <field name="Mouser Part Number">710-150060RS75003</field>
+        <field name="Spec">Red 625nm</field>
+      </fields>
+      <libsource lib="1016" part="150060RS75003" description="WURTH ELEKTRONIK - 150060RS75003 - LED, Red, SMD, 0603 [1608 Metric], 30 mA, 2.0 V, 625 nm"/>
+      <property name="Height" value="0.7"/>
+      <property name="Mouser Part Number" value="710-150060RS75003"/>
+      <property name="Manufacturer_Name" value="Wurth Elektronik"/>
+      <property name="Manufacturer_Part_Number" value="150060RS75003"/>
+      <property name="Description" value="Error LED"/>
+      <property name="Spec" value="Red 625nm"/>
+      <property name="Sheetname" value="MCU Control"/>
+      <property name="Sheetfile" value="MCU Control.kicad_sch"/>
+      <property name="ki_description" value="WURTH ELEKTRONIK - 150060RS75003 - LED, Red, SMD, 0603 [1608 Metric], 30 mA, 2.0 V, 625 nm"/>
+      <sheetpath names="/MCU Control/" tstamps="/3102d257-e8e7-46c5-aae5-de4b4b6ce591/"/>
+      <tstamps>f90f2557-1864-4d37-9006-ad68193739ba</tstamps>
+    </comp>
+    <comp ref="LED3">
+      <value>150060AS75003</value>
+      <footprint>1016:LEDC1608X80N</footprint>
+      <datasheet>https://www.we-online.com/catalog/datasheet/150060AS75003.pdf</datasheet>
+      <fields>
+        <field name="Description">Output LED</field>
+        <field name="Height">0.7</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">150060AS75003</field>
+        <field name="Mouser Part Number">710-150060AS75003</field>
+        <field name="Spec">Amber 605nm</field>
+      </fields>
+      <libsource lib="1016" part="150060AS75003" description="WURTH ELEKTRONIK - 150060AS75003 - LED, Amber, SMD, 0603 [1608 Metric], 30 mA, 2.0 V, 605 nm"/>
+      <property name="Height" value="0.7"/>
+      <property name="Mouser Part Number" value="710-150060AS75003"/>
+      <property name="Manufacturer_Name" value="Wurth Elektronik"/>
+      <property name="Manufacturer_Part_Number" value="150060AS75003"/>
+      <property name="Description" value="Output LED"/>
+      <property name="Spec" value="Amber 605nm"/>
+      <property name="Sheetname" value="MCU Control"/>
+      <property name="Sheetfile" value="MCU Control.kicad_sch"/>
+      <property name="ki_description" value="WURTH ELEKTRONIK - 150060AS75003 - LED, Amber, SMD, 0603 [1608 Metric], 30 mA, 2.0 V, 605 nm"/>
+      <sheetpath names="/MCU Control/" tstamps="/3102d257-e8e7-46c5-aae5-de4b4b6ce591/"/>
+      <tstamps>47022cd9-46e9-4aaa-a363-4d10e92cb67d</tstamps>
+    </comp>
+    <comp ref="LED4">
+      <value>150060VS75003</value>
+      <footprint>1016:LEDC1608X80N</footprint>
+      <datasheet>https://www.we-online.com/catalog/datasheet/150060VS75003.pdf</datasheet>
+      <fields>
+        <field name="Description">5V Top Rail LED</field>
+        <field name="Height">0.7</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">150060VS75003</field>
+        <field name="Mouser Part Number">710-150060VS75003</field>
+        <field name="Spec">Grn 570nm</field>
+      </fields>
+      <libsource lib="1016" part="150060VS75003" description="WURTH ELEKTRONIK - 150060VS75003 - LED, Green, SMD, 0603 [1608 Metric], 30 mA, 2.0 V, 570 nm"/>
+      <property name="Height" value="0.7"/>
+      <property name="Mouser Part Number" value="710-150060VS75003"/>
+      <property name="Manufacturer_Name" value="Wurth Elektronik"/>
+      <property name="Manufacturer_Part_Number" value="150060VS75003"/>
+      <property name="Description" value="5V Top Rail LED"/>
+      <property name="Spec" value="Grn 570nm"/>
+      <property name="Sheetname" value="MCU Control"/>
+      <property name="Sheetfile" value="MCU Control.kicad_sch"/>
+      <property name="ki_description" value="WURTH ELEKTRONIK - 150060VS75003 - LED, Green, SMD, 0603 [1608 Metric], 30 mA, 2.0 V, 570 nm"/>
+      <sheetpath names="/MCU Control/" tstamps="/3102d257-e8e7-46c5-aae5-de4b4b6ce591/"/>
+      <tstamps>3e186ab2-909a-487b-b0b1-0ce4b2c09377</tstamps>
+    </comp>
+    <comp ref="LED5">
+      <value>150060VS75003</value>
+      <footprint>1016:LEDC1608X80N</footprint>
+      <datasheet>https://www.we-online.com/catalog/datasheet/150060VS75003.pdf</datasheet>
+      <fields>
+        <field name="Description">5V Bottom Rail LED</field>
+        <field name="Height">0.7</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">150060VS75003</field>
+        <field name="Mouser Part Number">710-150060VS75003</field>
+        <field name="Spec">Grn 570nm</field>
+      </fields>
+      <libsource lib="1016" part="150060VS75003" description="WURTH ELEKTRONIK - 150060VS75003 - LED, Green, SMD, 0603 [1608 Metric], 30 mA, 2.0 V, 570 nm"/>
+      <property name="Height" value="0.7"/>
+      <property name="Mouser Part Number" value="710-150060VS75003"/>
+      <property name="Manufacturer_Name" value="Wurth Elektronik"/>
+      <property name="Manufacturer_Part_Number" value="150060VS75003"/>
+      <property name="Description" value="5V Bottom Rail LED"/>
+      <property name="Spec" value="Grn 570nm"/>
+      <property name="Sheetname" value="MCU Control"/>
+      <property name="Sheetfile" value="MCU Control.kicad_sch"/>
+      <property name="ki_description" value="WURTH ELEKTRONIK - 150060VS75003 - LED, Green, SMD, 0603 [1608 Metric], 30 mA, 2.0 V, 570 nm"/>
+      <sheetpath names="/MCU Control/" tstamps="/3102d257-e8e7-46c5-aae5-de4b4b6ce591/"/>
+      <tstamps>123adb3f-9905-455e-bc31-0133b71d0565</tstamps>
+    </comp>
+    <comp ref="LED6">
+      <value>150060YS75003</value>
+      <footprint>1016:LEDC1608X80N</footprint>
+      <datasheet>https://www.we-online.com/catalog/datasheet/150060YS75003.pdf</datasheet>
+      <fields>
+        <field name="Description">3V3 Top Rail LED</field>
+        <field name="Height">0.7</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">150060YS75003</field>
+        <field name="Mouser Part Number">710-150060YS75003</field>
+        <field name="Spec">Yellow 590nm</field>
+      </fields>
+      <libsource lib="1016" part="150060YS75003" description="WURTH ELEKTRONIK - 150060YS75003 - LED, Yellow, SMD, 0603 [1608 Metric], 30 mA, 2.0 V, 590 nm"/>
+      <property name="Height" value="0.7"/>
+      <property name="Mouser Part Number" value="710-150060YS75003"/>
+      <property name="Manufacturer_Name" value="Wurth Elektronik"/>
+      <property name="Manufacturer_Part_Number" value="150060YS75003"/>
+      <property name="Description" value="3V3 Top Rail LED"/>
+      <property name="Spec" value="Yellow 590nm"/>
+      <property name="Sheetname" value="MCU Control"/>
+      <property name="Sheetfile" value="MCU Control.kicad_sch"/>
+      <property name="ki_description" value="WURTH ELEKTRONIK - 150060YS75003 - LED, Yellow, SMD, 0603 [1608 Metric], 30 mA, 2.0 V, 590 nm"/>
+      <sheetpath names="/MCU Control/" tstamps="/3102d257-e8e7-46c5-aae5-de4b4b6ce591/"/>
+      <tstamps>caf8ca4d-7f1d-4a8d-ba26-e37cb3659de7</tstamps>
+    </comp>
+    <comp ref="LED7">
+      <value>150060YS75003</value>
+      <footprint>1016:LEDC1608X80N</footprint>
+      <datasheet>https://www.we-online.com/catalog/datasheet/150060YS75003.pdf</datasheet>
+      <fields>
+        <field name="Description">3V3 Bottom Rail LED</field>
+        <field name="Height">0.7</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">150060YS75003</field>
+        <field name="Mouser Part Number">710-150060YS75003</field>
+        <field name="Spec">Yellow 590nm</field>
+      </fields>
+      <libsource lib="1016" part="150060YS75003" description="WURTH ELEKTRONIK - 150060YS75003 - LED, Yellow, SMD, 0603 [1608 Metric], 30 mA, 2.0 V, 590 nm"/>
+      <property name="Height" value="0.7"/>
+      <property name="Mouser Part Number" value="710-150060YS75003"/>
+      <property name="Manufacturer_Name" value="Wurth Elektronik"/>
+      <property name="Manufacturer_Part_Number" value="150060YS75003"/>
+      <property name="Description" value="3V3 Bottom Rail LED"/>
+      <property name="Spec" value="Yellow 590nm"/>
+      <property name="Sheetname" value="MCU Control"/>
+      <property name="Sheetfile" value="MCU Control.kicad_sch"/>
+      <property name="ki_description" value="WURTH ELEKTRONIK - 150060YS75003 - LED, Yellow, SMD, 0603 [1608 Metric], 30 mA, 2.0 V, 590 nm"/>
+      <sheetpath names="/MCU Control/" tstamps="/3102d257-e8e7-46c5-aae5-de4b4b6ce591/"/>
+      <tstamps>2f6b53ee-0f68-4c5d-8153-be31872b9e37</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf</datasheet>
+      <fields>
+        <field name="Description">Nreset Pull-Up Resistor</field>
+        <field name="Height">0.45</field>
+        <field name="LCSC Part Number">C98220</field>
+        <field name="Manufacturer_Name">Yageo</field>
+        <field name="Manufacturer_Part_Number">RC0603FR-0710KL</field>
+        <field name="Mouser Part Number">603-RC0603FR-0710KL</field>
+        <field name="Spec">10K 100mW</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Description" value="Nreset Pull-Up Resistor"/>
+      <property name="Height" value="0.45"/>
+      <property name="LCSC Part Number" value="C98220"/>
+      <property name="Manufacturer_Name" value="Yageo"/>
+      <property name="Manufacturer_Part_Number" value="RC0603FR-0710KL"/>
+      <property name="Mouser Part Number" value="603-RC0603FR-0710KL"/>
+      <property name="Spec" value="10K 100mW"/>
+      <property name="Sheetname" value="MCU Control"/>
+      <property name="Sheetfile" value="MCU Control.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MCU Control/" tstamps="/3102d257-e8e7-46c5-aae5-de4b4b6ce591/"/>
+      <tstamps>c1087e3f-efec-4064-9b8d-a3e25720d676</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>365</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/PYu_AC_51_RoHS_L_9-3005297.pdf</datasheet>
+      <fields>
+        <field name="Description">Error LED Resistor</field>
+        <field name="Height">0.45</field>
+        <field name="LCSC Part Number">C227839</field>
+        <field name="Manufacturer_Name">Yageo</field>
+        <field name="Manufacturer_Part_Number">AC0603FR-07365RL</field>
+        <field name="Mouser Part Number">603-AC0603FR-07365RL</field>
+        <field name="Spec">365 100mW</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC Part Number" value="C227839"/>
+      <property name="Manufacturer_Name" value="Yageo"/>
+      <property name="Manufacturer_Part_Number" value="AC0603FR-07365RL"/>
+      <property name="Mouser Part Number" value="603-AC0603FR-07365RL"/>
+      <property name="Spec" value="365 100mW"/>
+      <property name="Description" value="Error LED Resistor"/>
+      <property name="Height" value="0.45"/>
+      <property name="Sheetname" value="MCU Control"/>
+      <property name="Sheetfile" value="MCU Control.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MCU Control/" tstamps="/3102d257-e8e7-46c5-aae5-de4b4b6ce591/"/>
+      <tstamps>a34ecb3e-8418-40f3-8816-e525e85ad6e9</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>402</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf</datasheet>
+      <fields>
+        <field name="Description">Output LED Resistor</field>
+        <field name="Height">0.45</field>
+        <field name="LCSC Part Number">C185331</field>
+        <field name="Manufacturer_Name">Yageo</field>
+        <field name="Manufacturer_Part_Number">RC0603FR-07402RL</field>
+        <field name="Mouser Part Number">603-RC0603FR-07402RL</field>
+        <field name="Spec">402 100mW</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC Part Number" value="C185331"/>
+      <property name="Manufacturer_Name" value="Yageo"/>
+      <property name="Manufacturer_Part_Number" value="RC0603FR-07402RL"/>
+      <property name="Mouser Part Number" value="603-RC0603FR-07402RL"/>
+      <property name="Spec" value="402 100mW"/>
+      <property name="Description" value="Output LED Resistor"/>
+      <property name="Height" value="0.45"/>
+      <property name="Sheetname" value="MCU Control"/>
+      <property name="Sheetfile" value="MCU Control.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MCU Control/" tstamps="/3102d257-e8e7-46c5-aae5-de4b4b6ce591/"/>
+      <tstamps>07e01717-20ae-4dcf-a4cd-49de8e6207fc</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>210</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/PYu_AC_51_RoHS_L_9-3005297.pdf</datasheet>
+      <fields>
+        <field name="Description">5V Top Rail LED Resistor</field>
+        <field name="Height">0.45</field>
+        <field name="LCSC Part Number">C227706</field>
+        <field name="Manufacturer_Name">Yageo</field>
+        <field name="Manufacturer_Part_Number">AC0603FR-07210RL</field>
+        <field name="Mouser Part Number">603-AC0603FR-07210RL</field>
+        <field name="Spec">210 100mW</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC Part Number" value="C227706"/>
+      <property name="Manufacturer_Name" value="Yageo"/>
+      <property name="Manufacturer_Part_Number" value="AC0603FR-07210RL"/>
+      <property name="Mouser Part Number" value="603-AC0603FR-07210RL"/>
+      <property name="Spec" value="210 100mW"/>
+      <property name="Description" value="5V Top Rail LED Resistor"/>
+      <property name="Height" value="0.45"/>
+      <property name="Sheetname" value="MCU Control"/>
+      <property name="Sheetfile" value="MCU Control.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MCU Control/" tstamps="/3102d257-e8e7-46c5-aae5-de4b4b6ce591/"/>
+      <tstamps>18aa5be8-b008-4b08-a74e-caf7de1843c1</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>210</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/PYu_AC_51_RoHS_L_9-3005297.pdf</datasheet>
+      <fields>
+        <field name="Description">5V Bottom Rail LED Resistor</field>
+        <field name="Height">0.45</field>
+        <field name="LCSC Part Number">C227706</field>
+        <field name="Manufacturer_Name">Yageo</field>
+        <field name="Manufacturer_Part_Number">AC0603FR-07210RL</field>
+        <field name="Mouser Part Number">603-AC0603FR-07210RL</field>
+        <field name="Spec">210 100mW</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC Part Number" value="C227706"/>
+      <property name="Manufacturer_Name" value="Yageo"/>
+      <property name="Manufacturer_Part_Number" value="AC0603FR-07210RL"/>
+      <property name="Mouser Part Number" value="603-AC0603FR-07210RL"/>
+      <property name="Spec" value="210 100mW"/>
+      <property name="Description" value="5V Bottom Rail LED Resistor"/>
+      <property name="Height" value="0.45"/>
+      <property name="Sheetname" value="MCU Control"/>
+      <property name="Sheetfile" value="MCU Control.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MCU Control/" tstamps="/3102d257-e8e7-46c5-aae5-de4b4b6ce591/"/>
+      <tstamps>c9d32cda-1f9b-448e-9e73-4aa05100fb0b</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>887</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf</datasheet>
+      <fields>
+        <field name="Description">3V3 Top Rail Resistor</field>
+        <field name="Height">0.45</field>
+        <field name="LCSC Part Number">C273768</field>
+        <field name="Manufacturer_Name">Yageo</field>
+        <field name="Manufacturer_Part_Number">RC0603FR-07887RL</field>
+        <field name="Mouser Part Number">603-RC0603FR-07887RL</field>
+        <field name="Spec">887 100mW</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC Part Number" value="C273768"/>
+      <property name="Manufacturer_Name" value="Yageo"/>
+      <property name="Manufacturer_Part_Number" value="RC0603FR-07887RL"/>
+      <property name="Mouser Part Number" value="603-RC0603FR-07887RL"/>
+      <property name="Spec" value="887 100mW"/>
+      <property name="Description" value="3V3 Top Rail Resistor"/>
+      <property name="Height" value="0.45"/>
+      <property name="Sheetname" value="MCU Control"/>
+      <property name="Sheetfile" value="MCU Control.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MCU Control/" tstamps="/3102d257-e8e7-46c5-aae5-de4b4b6ce591/"/>
+      <tstamps>cb86b329-1da6-4fd1-9e58-9ba57608a06d</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>887</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf</datasheet>
+      <fields>
+        <field name="Description">3V3 Bottom Rail Resistor</field>
+        <field name="Height">0.45</field>
+        <field name="LCSC Part Number">C273768</field>
+        <field name="Manufacturer_Name">Yageo</field>
+        <field name="Manufacturer_Part_Number">RC0603FR-07887RL</field>
+        <field name="Mouser Part Number">603-RC0603FR-07887RL</field>
+        <field name="Spec">887 100mW</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="LCSC Part Number" value="C273768"/>
+      <property name="Manufacturer_Name" value="Yageo"/>
+      <property name="Manufacturer_Part_Number" value="RC0603FR-07887RL"/>
+      <property name="Mouser Part Number" value="603-RC0603FR-07887RL"/>
+      <property name="Spec" value="887 100mW"/>
+      <property name="Description" value="3V3 Bottom Rail Resistor"/>
+      <property name="Height" value="0.45"/>
+      <property name="Sheetname" value="MCU Control"/>
+      <property name="Sheetfile" value="MCU Control.kicad_sch"/>
+      <property name="ki_description" value="Resistor, US symbol"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/MCU Control/" tstamps="/3102d257-e8e7-46c5-aae5-de4b4b6ce591/"/>
+      <tstamps>f3d547d4-1578-4f67-9f2e-c5541908af06</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>Tactile Switch 6mm</value>
+      <footprint>PTS636SK25JSMTRLFS</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/60/pts636-1550567.pdf</datasheet>
+      <fields>
+        <field name="Description">Output Enable Btn</field>
+        <field name="Height">2.7</field>
+        <field name="LCSC Part Number">C2800965</field>
+        <field name="Manufacturer_Name">C &amp; K COMPONENTS</field>
+        <field name="Manufacturer_Part_Number">PTS636 SK25J SMTR LFS</field>
+        <field name="Mouser Part Number">611-PTS636SK25JSMTRL</field>
+        <field name="Spec">50mA 12Vdc 250gf</field>
+      </fields>
+      <libsource lib="1016" part="PTS636_SK25J_SMTR_LFS" description="Tactile Switches Tact 50mA 12VDC, 6.0x3.5, 2.5mm H, 250gf, J leads, No ground pin, Red Actuator"/>
+      <property name="Height" value="2.7"/>
+      <property name="Manufacturer_Name" value="C &amp; K COMPONENTS"/>
+      <property name="Manufacturer_Part_Number" value="PTS636 SK25J SMTR LFS"/>
+      <property name="Mouser Part Number" value="611-PTS636SK25JSMTRL"/>
+      <property name="Description" value="Output Enable Btn"/>
+      <property name="LCSC Part Number" value="C2800965"/>
+      <property name="Spec" value="50mA 12Vdc 250gf"/>
+      <property name="Sheetname" value="MCU Control"/>
+      <property name="Sheetfile" value="MCU Control.kicad_sch"/>
+      <property name="ki_description" value="Tactile Switches Tact 50mA 12VDC, 6.0x3.5, 2.5mm H, 250gf, J leads, No ground pin, Red Actuator"/>
+      <sheetpath names="/MCU Control/" tstamps="/3102d257-e8e7-46c5-aae5-de4b4b6ce591/"/>
+      <tstamps>1df50785-5493-4e4a-b6ef-e16974d0ece6</tstamps>
+    </comp>
+    <comp ref="S2">
+      <value>Tactile Switch 6mm</value>
+      <footprint>PTS636SK25JSMTRLFS</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/60/pts636-1550567.pdf</datasheet>
+      <fields>
+        <field name="Description">Config Button</field>
+        <field name="Height">2.7</field>
+        <field name="LCSC Part Number">C2800965</field>
+        <field name="Manufacturer_Name">C &amp; K COMPONENTS</field>
+        <field name="Manufacturer_Part_Number">PTS636 SK25J SMTR LFS</field>
+        <field name="Mouser Part Number">611-PTS636SK25JSMTRL</field>
+        <field name="Spec">50mA 12Vdc 250gf</field>
+      </fields>
+      <libsource lib="1016" part="PTS636_SK25J_SMTR_LFS" description="Tactile Switches Tact 50mA 12VDC, 6.0x3.5, 2.5mm H, 250gf, J leads, No ground pin, Red Actuator"/>
+      <property name="Height" value="2.7"/>
+      <property name="Manufacturer_Name" value="C &amp; K COMPONENTS"/>
+      <property name="Manufacturer_Part_Number" value="PTS636 SK25J SMTR LFS"/>
+      <property name="Mouser Part Number" value="611-PTS636SK25JSMTRL"/>
+      <property name="Description" value="Config Button"/>
+      <property name="LCSC Part Number" value="C2800965"/>
+      <property name="Spec" value="50mA 12Vdc 250gf"/>
+      <property name="Sheetname" value="MCU Control"/>
+      <property name="Sheetfile" value="MCU Control.kicad_sch"/>
+      <property name="ki_description" value="Tactile Switches Tact 50mA 12VDC, 6.0x3.5, 2.5mm H, 250gf, J leads, No ground pin, Red Actuator"/>
+      <sheetpath names="/MCU Control/" tstamps="/3102d257-e8e7-46c5-aae5-de4b4b6ce591/"/>
+      <tstamps>e44c83f4-7770-4dbe-a7d6-a4c09d85876c</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>STM32C011F4U6TR</value>
+      <footprint>UFQFPN20_3X3_STM</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/389/stm32c011d6-3082107.pdf</datasheet>
+      <fields>
+        <field name="Description">Microcontroller</field>
+        <field name="Height">0.55</field>
+        <field name="LCSC Part Number">C5456188</field>
+        <field name="Manufacturer_Name">ST Micro</field>
+        <field name="Manufacturer_Part_Number">STM32C011F4U6TR</field>
+        <field name="Mouser Part Number">511-STM32C011F4U6TR</field>
+        <field name="Spec">48MHz ARM M0</field>
+      </fields>
+      <libsource lib="1016" part="STM32C011F4U6TR" description=""/>
+      <property name="Description" value="Microcontroller"/>
+      <property name="Height" value="0.55"/>
+      <property name="LCSC Part Number" value="C5456188"/>
+      <property name="Manufacturer_Name" value="ST Micro"/>
+      <property name="Manufacturer_Part_Number" value="STM32C011F4U6TR"/>
+      <property name="Mouser Part Number" value="511-STM32C011F4U6TR"/>
+      <property name="Spec" value="48MHz ARM M0"/>
+      <property name="Sheetname" value="MCU Control"/>
+      <property name="Sheetfile" value="MCU Control.kicad_sch"/>
+      <property name="ki_keywords" value="STM32C011F4U6TR"/>
+      <sheetpath names="/MCU Control/" tstamps="/3102d257-e8e7-46c5-aae5-de4b4b6ce591/"/>
+      <tstamps>56fc1a5d-8524-41ba-bf4c-14f09f09c210</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Pin Hdr 2x2</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/527/tsw_th-2854687.pdf</datasheet>
+      <fields>
+        <field name="Description">Pin Header 2x2</field>
+        <field name="Height">0.9</field>
+        <field name="LCSC Part Number">C3346817</field>
+        <field name="Manufacturer_Name">Samtec</field>
+        <field name="Manufacturer_Part_Number">TSW-102-07-L-D</field>
+        <field name="Mouser Part Number">200-TSW10207LD</field>
+        <field name="Spec">2x2 Pin Hdr 2.54mm Pitch Gold</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x02_Top_Bottom" description="Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Description" value="Pin Header 2x2"/>
+      <property name="Height" value="0.9"/>
+      <property name="LCSC Part Number" value="C3346817"/>
+      <property name="Manufacturer_Name" value="Samtec"/>
+      <property name="Manufacturer_Part_Number" value="TSW-102-07-L-D"/>
+      <property name="Mouser Part Number" value="200-TSW10207LD"/>
+      <property name="Spec" value="2x2 Pin Hdr 2.54mm Pitch Gold"/>
+      <property name="Sheetname" value="Rail Output"/>
+      <property name="Sheetfile" value="Rail Output.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Rail Output/" tstamps="/14679d3c-a45c-484b-be8b-27fb95b86b68/"/>
+      <tstamps>7fd6d7a9-a530-499c-acac-4fded640d069</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Pin Hdr 2x2</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/527/tsw_th-2854687.pdf</datasheet>
+      <fields>
+        <field name="Description">Pin Header 2x2</field>
+        <field name="Height">0.9</field>
+        <field name="LCSC Part Number">C3346817</field>
+        <field name="Manufacturer_Name">Samtec</field>
+        <field name="Manufacturer_Part_Number">TSW-102-07-L-D</field>
+        <field name="Mouser Part Number">200-TSW10207LD</field>
+        <field name="Spec">2x2 Pin Hdr 2.54mm Pitch Gold</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x02_Top_Bottom" description="Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Description" value="Pin Header 2x2"/>
+      <property name="Height" value="0.9"/>
+      <property name="LCSC Part Number" value="C3346817"/>
+      <property name="Manufacturer_Name" value="Samtec"/>
+      <property name="Manufacturer_Part_Number" value="TSW-102-07-L-D"/>
+      <property name="Mouser Part Number" value="200-TSW10207LD"/>
+      <property name="Spec" value="2x2 Pin Hdr 2.54mm Pitch Gold"/>
+      <property name="Sheetname" value="Rail Output"/>
+      <property name="Sheetfile" value="Rail Output.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Rail Output/" tstamps="/14679d3c-a45c-484b-be8b-27fb95b86b68/"/>
+      <tstamps>f3df6809-19ac-4fe4-a825-99a4fb8e418c</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="1016" part="150060AS75003">
+      <description>WURTH ELEKTRONIK - 150060AS75003 - LED, Amber, SMD, 0603 [1608 Metric], 30 mA, 2.0 V, 605 nm</description>
+      <docs>https://www.we-online.com/catalog/datasheet/150060AS75003.pdf</docs>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">150060AS75003</field>
+        <field name="Footprint">1016:LEDC1608X80N</field>
+        <field name="Datasheet">https://www.we-online.com/catalog/datasheet/150060AS75003.pdf</field>
+        <field name="Height">0.8</field>
+        <field name="Mouser Part Number">710-150060AS75003</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">150060AS75003</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1016" part="150060RS75003">
+      <description>WURTH ELEKTRONIK - 150060RS75003 - LED, Red, SMD, 0603 [1608 Metric], 30 mA, 2.0 V, 625 nm</description>
+      <docs>https://www.we-online.com/catalog/datasheet/150060RS75003.pdf</docs>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">150060RS75003</field>
+        <field name="Footprint">1016:LEDC1608X80N</field>
+        <field name="Datasheet">https://www.we-online.com/catalog/datasheet/150060RS75003.pdf</field>
+        <field name="Height">0.8</field>
+        <field name="Mouser Part Number">710-150060RS75003</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">150060RS75003</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1016" part="150060VS75003">
+      <description>WURTH ELEKTRONIK - 150060VS75003 - LED, Green, SMD, 0603 [1608 Metric], 30 mA, 2.0 V, 570 nm</description>
+      <docs>https://www.we-online.com/catalog/datasheet/150060VS75003.pdf</docs>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">150060VS75003</field>
+        <field name="Footprint">1016:LEDC1608X80N</field>
+        <field name="Datasheet">https://www.we-online.com/catalog/datasheet/150060VS75003.pdf</field>
+        <field name="Height">0.8</field>
+        <field name="Mouser Part Number">710-150060VS75003</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">150060VS75003</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1016" part="150060YS75003">
+      <description>WURTH ELEKTRONIK - 150060YS75003 - LED, Yellow, SMD, 0603 [1608 Metric], 30 mA, 2.0 V, 590 nm</description>
+      <docs>https://www.we-online.com/catalog/datasheet/150060YS75003.pdf</docs>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">150060YS75003</field>
+        <field name="Footprint">1016:LEDC1608X80N</field>
+        <field name="Datasheet">https://www.we-online.com/catalog/datasheet/150060YS75003.pdf</field>
+        <field name="Height">0.8</field>
+        <field name="Mouser Part Number">710-150060YS75003</field>
+        <field name="Manufacturer_Name">Wurth Elektronik</field>
+        <field name="Manufacturer_Part_Number">150060YS75003</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1016" part="BUK6D120-60PX">
+      <description>MOSFET 60V P-CH TRENCHMOS SOT1220</description>
+      <docs>https://www.arrow.com/en/products/buk6d120-60px/nexperia?region=europe</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BUK6D120-60PX</field>
+        <field name="Footprint">1013v4:BUK6D12060PX</field>
+        <field name="Datasheet">https://www.arrow.com/en/products/buk6d120-60px/nexperia?region=europe</field>
+        <field name="Height">0.65</field>
+        <field name="Arrow Part Number">BUK6D120-60PX</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/buk6d120-60px/nexperia?region=europe</field>
+        <field name="Manufacturer_Name">Nexperia</field>
+        <field name="Manufacturer_Part_Number">BUK6D120-60PX</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D_1" type="passive"/>
+        <pin num="2" name="D_2" type="passive"/>
+        <pin num="3" name="G" type="passive"/>
+        <pin num="4" name="S_1" type="passive"/>
+        <pin num="5" name="D_3" type="passive"/>
+        <pin num="6" name="D_4" type="passive"/>
+        <pin num="7" name="D_5" type="passive"/>
+        <pin num="8" name="S_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1016" part="MMSZ5231B-7-F">
+      <description>Zener Diode 5.1V 5% 500mW SOD123 Diodes Inc MMSZ5231B-7-F Zener Diode, 5.1V 5% 0.5 W SMT 2-Pin SOD-123</description>
+      <docs>https://www.diodes.com/assets/Datasheets/ds18010.pdf</docs>
+      <fields>
+        <field name="Reference">Z</field>
+        <field name="Value">MMSZ5231B-7-F</field>
+        <field name="Footprint">SOD3716X145N</field>
+        <field name="Datasheet">https://www.diodes.com/assets/Datasheets/ds18010.pdf</field>
+        <field name="Height">1.45</field>
+        <field name="Manufacturer_Name">Diodes Inc.</field>
+        <field name="Manufacturer_Part_Number">MMSZ5231B-7-F</field>
+        <field name="Mouser Part Number">621-MMSZ5231B-F</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/MMSZ5231B-7-F?qs=2ygBApjwyeMh7Sf0YL1qSw%3D%3D</field>
+        <field name="Arrow Part Number">MMSZ5231B-7-F</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/mmsz5231b-7-f/diodes-incorporated?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1016" part="PJ-102B">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PJ-102B</field>
+        <field name="Footprint">CUI_PJ-102B</field>
+        <field name="STANDARD">Manufacturer recommendations</field>
+        <field name="PART_REV">1.03</field>
+        <field name="MANUFACTURER">CUI INC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1016" part="PTS636_SK25J_SMTR_LFS">
+      <description>Tactile Switches Tact 50mA 12VDC, 6.0x3.5, 2.5mm H, 250gf, J leads, No ground pin, Red Actuator</description>
+      <docs>https://www.mouser.com/datasheet/2/60/pts636-1550567.pdf</docs>
+      <fields>
+        <field name="Reference">S?</field>
+        <field name="Value">PTS636_SK25J_SMTR_LFS</field>
+        <field name="Footprint">PTS636SK25JSMTRLFS</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/60/pts636-1550567.pdf</field>
+        <field name="Height">2.7</field>
+        <field name="Manufacturer_Name">C &amp; K COMPONENTS</field>
+        <field name="Manufacturer_Part_Number">PTS636 SK25J SMTR LFS</field>
+        <field name="Mouser Part Number">611-PTS636SK25JSMTRL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="COM" type="passive"/>
+        <pin num="2" name="NO" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1016" part="SMD1812B110TF">
+      <docs>SMD1812B110TF</docs>
+      <footprints>
+        <fp>FUSE_SMD1812B110TF_YAG</fp>
+        <fp>FUSE_SMD1812B110TF_YAG-M</fp>
+        <fp>FUSE_SMD1812B110TF_YAG-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">SMD1812B110TF</field>
+        <field name="Footprint">FUSE_SMD1812B110TF_YAG</field>
+        <field name="Datasheet">SMD1812B110TF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1016" part="SMF17CA">
+      <docs>SMF17CA</docs>
+      <footprints>
+        <fp>SOD-123F_LTF</fp>
+        <fp>SOD-123F_LTF-M</fp>
+        <fp>SOD-123F_LTF-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">CR</field>
+        <field name="Value">SMF17CA</field>
+        <field name="Footprint">SOD-123F_LTF</field>
+        <field name="Datasheet">SMF17CA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1016" part="STM32C011F4U6TR">
+      <docs>STM32C011F4U6TR</docs>
+      <footprints>
+        <fp>UFQFPN20_3X3_STM</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U4</field>
+        <field name="Value">STM32C011F4U6TR</field>
+        <field name="Footprint">UFQFPN20_3X3_STM</field>
+        <field name="Datasheet">STM32C011F4U6TR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PC15-OSCX_OUT" type="bidirectional"/>
+        <pin num="2" name="VDD/VDDA" type="power_in"/>
+        <pin num="3" name="VSS/VSSA" type="power_in"/>
+        <pin num="4" name="PF2-NRST" type="bidirectional"/>
+        <pin num="5" name="PA0" type="bidirectional"/>
+        <pin num="6" name="PA1" type="bidirectional"/>
+        <pin num="7" name="PA2" type="bidirectional"/>
+        <pin num="8" name="PA3" type="bidirectional"/>
+        <pin num="9" name="PA4" type="bidirectional"/>
+        <pin num="10" name="PA5" type="bidirectional"/>
+        <pin num="11" name="PA6" type="bidirectional"/>
+        <pin num="12" name="PA7" type="bidirectional"/>
+        <pin num="13" name="PA8" type="bidirectional"/>
+        <pin num="14" name="PA11[PA9]" type="bidirectional"/>
+        <pin num="15" name="PA12[PA10]" type="bidirectional"/>
+        <pin num="16" name="PA13" type="bidirectional"/>
+        <pin num="17" name="PA14-BOOT0" type="bidirectional"/>
+        <pin num="18" name="PB6" type="bidirectional"/>
+        <pin num="19" name="PB7" type="bidirectional"/>
+        <pin num="20" name="PC14-OSCX_IN" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="1016" part="TC2030-IDC">
+      <docs>TC2030-IDC</docs>
+      <footprints>
+        <fp>CONN_TC2030-IDC_TGC</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TC2030-IDC</field>
+        <field name="Footprint">CONN_TC2030-IDC_TGC</field>
+        <field name="Datasheet">TC2030-IDC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1016" part="TPS62130RGTR">
+      <description>3-17V 3A Step-Down Converter with DCS-Control in 3x3 QFN Package</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tps62130.pdf</docs>
+      <fields>
+        <field name="Reference">U**</field>
+        <field name="Value">TPS62130RGTR</field>
+        <field name="Footprint">QFN50P300X300X100-17N-D</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tps62130.pdf</field>
+        <field name="Height">1</field>
+        <field name="Manufacturer_Name">Texas Instruments</field>
+        <field name="Manufacturer_Part_Number">TPS62130RGTR</field>
+        <field name="Mouser Part Number">595-TPS62130RGTR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS62130RGTR?qs=gXEV9p%2FxLgcmDj5piyJ3pQ%3D%3D</field>
+        <field name="Arrow Part Number">TPS62130RGTR</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/tps62130rgtr/texas-instruments?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SW_1" type="passive"/>
+        <pin num="2" name="SW_2" type="passive"/>
+        <pin num="3" name="SW_3" type="passive"/>
+        <pin num="4" name="PG" type="passive"/>
+        <pin num="5" name="FB" type="passive"/>
+        <pin num="6" name="AGND" type="passive"/>
+        <pin num="7" name="FSW" type="passive"/>
+        <pin num="8" name="DEF" type="passive"/>
+        <pin num="9" name="SS/TR" type="passive"/>
+        <pin num="10" name="AVIN" type="passive"/>
+        <pin num="11" name="PVIN_1" type="passive"/>
+        <pin num="12" name="PVIN_2" type="passive"/>
+        <pin num="13" name="EN" type="passive"/>
+        <pin num="14" name="VOS" type="passive"/>
+        <pin num="15" name="PGND_1" type="passive"/>
+        <pin num="16" name="PGND_2" type="passive"/>
+        <pin num="17" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="1016" part="VLS5045EX-2R2N">
+      <description>Inductor Power Shielded Wirewound 2.2uH 30% 100KHz Ferrite 4.7A 22mOhm DCR 2020 T/R</description>
+      <docs>https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls5045ex_en.pdf</docs>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">VLS5045EX-2R2N</field>
+        <field name="Footprint">VLS5045EX330M</field>
+        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls5045ex_en.pdf</field>
+        <field name="Height">4</field>
+        <field name="Manufacturer_Name">TDK</field>
+        <field name="Manufacturer_Part_Number">VLS5045EX-2R2N</field>
+        <field name="Mouser Part Number">810-VLS5045EX-2R2N</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TDK/VLS5045EX-2R2N?qs=oF%2FSscNnLpAtppfzrkZuzA%3D%3D</field>
+        <field name="Arrow Part Number">VLS5045EX-2R2N</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/vls5045ex-2r2n/tdk?region=nac</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x02_Top_Bottom">
+      <description>Generic connector, double row, 02x02, top/bottom pin numbering scheme (row 1: 1...pins_per_row, row2: pins_per_row+1 ... num_pins), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x02_Top_Bottom</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DW_Library" part="DW_PCB_Logo">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">DW_PCB_Logo</field>
+        <field name="Footprint">DW_Footprint:DW_PCB_Logo</field>
+      </fields>
+    </libpart>
+    <libpart lib="DW_Library" part="Solder_Stencil_Alignment_Pin">
+      <description>2.55mm square hole for solder stencil alignment</description>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">Solder_Stencil_Alignment_Pin</field>
+        <field name="Footprint">DW_Footprint:Solder_Stencil_Alignment_Pin</field>
+      </fields>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Fiducial">
+      <description>Fiducial Marker</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Fiducial*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FID</field>
+        <field name="Value">Fiducial</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="1016">
+      <uri>C:\EE\Projects\1016 Breadboard Power Supply\KiCAD Project/Libraries/Symbol/1016.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="DW_Library">
+      <uri>C:/EE/KiCAD Libraries/DW/DW_Symbols/DW_Library.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/Input Power/GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="CR1" pin="2" pintype="passive"/>
+      <node ref="J1" pin="2" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="S1" pin="1" pinfunction="COM" pintype="passive"/>
+      <node ref="S2" pin="1" pinfunction="COM" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="PGND_1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="PGND_2" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="EP" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="AGND" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="DEF" pintype="passive"/>
+      <node ref="U2" pin="15" pinfunction="PGND_1" pintype="passive"/>
+      <node ref="U2" pin="16" pinfunction="PGND_2" pintype="passive"/>
+      <node ref="U2" pin="17" pinfunction="EP" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="AGND" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="DEF" pintype="passive"/>
+      <node ref="U3" pin="15" pinfunction="PGND_1" pintype="passive"/>
+      <node ref="U3" pin="16" pinfunction="PGND_2" pintype="passive"/>
+      <node ref="U3" pin="17" pinfunction="EP" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="AGND" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="DEF" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="VSS/VSSA" pintype="power_in"/>
+    </net>
+    <net code="2" name="/Input Power/RPPgate">
+      <node ref="Q1" pin="3" pinfunction="G" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="Z1" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="3" name="/Input Power/VCC">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="LED1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="AVIN" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="PVIN_1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="PVIN_2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="EN" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="FSW" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="AVIN" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="PVIN_1" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="PVIN_2" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="FSW" pintype="passive"/>
+      <node ref="U3" pin="10" pinfunction="AVIN" pintype="passive"/>
+      <node ref="U3" pin="11" pinfunction="PVIN_1" pintype="passive"/>
+      <node ref="U3" pin="12" pinfunction="PVIN_2" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="FSW" pintype="passive"/>
+    </net>
+    <net code="4" name="/Input Power/Vfused">
+      <node ref="CR1" pin="1" pintype="passive"/>
+      <node ref="F1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="D_1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="D_2" pintype="passive"/>
+      <node ref="Q1" pin="5" pinfunction="D_3" pintype="passive"/>
+      <node ref="Q1" pin="6" pinfunction="D_4" pintype="passive"/>
+      <node ref="Q1" pin="7" pinfunction="D_5" pintype="passive"/>
+    </net>
+    <net code="5" name="/Input Power/Vin">
+      <node ref="F1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J1" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="/Input Power/Vprot">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Q1" pin="4" pinfunction="S_1" pintype="passive"/>
+      <node ref="Q1" pin="8" pinfunction="S_2" pintype="passive"/>
+      <node ref="Z1" pin="1" pinfunction="K" pintype="passive"/>
+    </net>
+    <net code="7" name="/MCU Control/3V3BLED_A">
+      <node ref="LED7" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+    </net>
+    <net code="8" name="/MCU Control/3V3BLED_Sig">
+      <node ref="LED7" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="U4" pin="10" pinfunction="PA5" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/MCU Control/3V3TLED_A">
+      <node ref="LED6" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="/MCU Control/3V3TLED_Sig">
+      <node ref="LED6" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="U4" pin="9" pinfunction="PA4" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/MCU Control/5VBLED_A">
+      <node ref="LED5" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="/MCU Control/5VBLED_Sig">
+      <node ref="LED5" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="U4" pin="8" pinfunction="PA3" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="/MCU Control/5VTLED_A">
+      <node ref="LED4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="/MCU Control/5VTLED_Sig">
+      <node ref="LED4" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="U4" pin="7" pinfunction="PA2" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/MCU Control/Btn_Config">
+      <node ref="S2" pin="2" pinfunction="NO" pintype="passive"/>
+      <node ref="U4" pin="11" pinfunction="PA6" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/MCU Control/Btn_OutputEn">
+      <node ref="S1" pin="2" pinfunction="NO" pintype="passive"/>
+      <node ref="U4" pin="12" pinfunction="PA7" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/MCU Control/Enable_Output">
+      <node ref="U2" pin="13" pinfunction="EN" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="EN" pintype="passive"/>
+      <node ref="U4" pin="15" pinfunction="PA12[PA10]" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/MCU Control/ErrorLED_A">
+      <node ref="LED2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="/MCU Control/ErrorLED_Sig">
+      <node ref="LED2" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="PA0" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/MCU Control/NRST">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="PF2-NRST" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/MCU Control/OutputLED_A">
+      <node ref="LED3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="22" name="/MCU Control/OutputLED_Sig">
+      <node ref="LED3" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="PA1" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="/MCU Control/PGood_RailB">
+      <node ref="U3" pin="4" pinfunction="PG" pintype="passive"/>
+      <node ref="U4" pin="18" pinfunction="PB6" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/MCU Control/PGood_RailT">
+      <node ref="U2" pin="4" pinfunction="PG" pintype="passive"/>
+      <node ref="U4" pin="19" pinfunction="PB7" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/MCU Control/SWDCLK">
+      <node ref="U4" pin="17" pinfunction="PA14-BOOT0" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/MCU Control/SWDIO">
+      <node ref="U4" pin="16" pinfunction="PA13" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/MCU Control/SelectVrailB">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U4" pin="13" pinfunction="PA8" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/MCU Control/SelectVrailT">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U4" pin="14" pinfunction="PA11[PA9]" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/MCU Control/Vmcu">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="VOS" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="VDD/VDDA" pintype="power_in"/>
+    </net>
+    <net code="30" name="/MCU Power Regulator/MCUReg_FB">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="FB" pintype="passive"/>
+    </net>
+    <net code="31" name="/MCU Power Regulator/MCUReg_SS">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="SS/TR" pintype="passive"/>
+    </net>
+    <net code="32" name="/MCU Power Regulator/MCUReg_Sw_Out">
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="SW_1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="SW_2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="SW_3" pintype="passive"/>
+    </net>
+    <net code="33" name="/Rail B Power Regulator/RailBReg_FB">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="FB" pintype="passive"/>
+    </net>
+    <net code="34" name="/Rail B Power Regulator/RailBReg_SS">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="SS/TR" pintype="passive"/>
+    </net>
+    <net code="35" name="/Rail B Power Regulator/RailBReg_Sw_Out">
+      <node ref="L4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="SW_1" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="SW_2" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="SW_3" pintype="passive"/>
+    </net>
+    <net code="36" name="/Rail B Power Regulator/VrailB">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="L4" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U3" pin="14" pinfunction="VOS" pintype="passive"/>
+    </net>
+    <net code="37" name="/Rail Output/VrailT">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="L3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U2" pin="14" pinfunction="VOS" pintype="passive"/>
+    </net>
+    <net code="38" name="/Rail T Power Regulator/RailTReg_FB">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="FB" pintype="passive"/>
+    </net>
+    <net code="39" name="/Rail T Power Regulator/RailTReg_SS">
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="SS/TR" pintype="passive"/>
+    </net>
+    <net code="40" name="/Rail T Power Regulator/RailTReg_Sw_Out">
+      <node ref="L3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="SW_1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="SW_2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="SW_3" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(LED1-K)">
+      <node ref="LED1" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="42" name="unconnected-(J1-Pad3)">
+      <node ref="J1" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U1-PG-Pad4)">
+      <node ref="U1" pin="4" pinfunction="PG" pintype="passive+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U4-PC14-OSCX_IN-Pad20)">
+      <node ref="U4" pin="20" pinfunction="PC14-OSCX_IN" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U4-PC15-OSCX_OUT-Pad1)">
+      <node ref="U4" pin="1" pinfunction="PC15-OSCX_OUT" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>

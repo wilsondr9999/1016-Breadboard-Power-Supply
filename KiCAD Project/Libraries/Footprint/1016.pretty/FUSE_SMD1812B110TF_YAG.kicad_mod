@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (tags "SMD1812B110TF ")
   (attr smd)
-  (fp_text reference "REF**" (at 0 0 unlocked) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -2.9 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 5c818d20-9280-4ef3-a7b8-b787c2e49efd)
   )

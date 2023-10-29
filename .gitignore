@@ -1,0 +1,5 @@
+# 1016 Breadboard Power Supply
+# .gitignore file
+
+# Exclude any directory in the tree labeled .private
+**/.private/

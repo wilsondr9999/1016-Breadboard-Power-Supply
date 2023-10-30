@@ -2,4 +2,4 @@
 ../Core/Src/main.c:113:6:SystemClock_Config	64	static
 ../Core/Src/main.c:150:13:MX_TIM3_Init	40	static
 ../Core/Src/main.c:195:13:MX_GPIO_Init	48	static
-../Core/Src/main.c:252:6:Error_Handler	8	static,ignoring_inline_asm
+../Core/Src/main.c:268:6:Error_Handler	8	static,ignoring_inline_asm

@@ -1,6 +1,11 @@
-### Footprint positions - created on Sun Oct  8 11:51:22 2023 ###
+### Footprint positions - created on Sun Oct 29 23:24:42 2023 ###
 ### Printed by KiCad version 7.0.7
 ## Unit = mm, Angle = deg.
 ## Side : bottom
-# Ref     Val       Package                PosX       PosY       Rot  Side
+# Ref     Val          Package                               PosX       PosY       Rot  Side
+HS1       Heat_Sink    HSB01-080808                       71.4780  -116.4280  180.0000  bottom
+HS2       Heat_Sink    HSB01-080808                       75.4500   -80.8750  180.0000  bottom
+J3        Pin_Hdr_2x2  PinHeader_2x02_P2.54mm_Vertical    99.0600   -73.0250  180.0000  bottom
+J4        Pin_Hdr_2x2  PinHeader_2x02_P2.54mm_Vertical    99.0600  -117.4750  180.0000  bottom
+P1        DW_PCB_Logo  DW_PCB_Logo                        66.6750  -105.1560  -90.0000  bottom
 ## End

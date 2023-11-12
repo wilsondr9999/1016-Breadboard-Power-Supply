@@ -5758,11 +5758,11 @@ void ConfigSM(void) {
  8001e30:	4b73      	ldr	r3, [pc, #460]	; (8002000 <ConfigSM+0x1d4>)
  8001e32:	681b      	ldr	r3, [r3, #0]
  8001e34:	2b01      	cmp	r3, #1
- 8001e36:	d15c      	bne.n	8001ef2 <ConfigSM+0xc6>
+ 8001e36:	d113      	bne.n	8001e60 <ConfigSM+0x34>
  8001e38:	4b72      	ldr	r3, [pc, #456]	; (8002004 <ConfigSM+0x1d8>)
  8001e3a:	781b      	ldrb	r3, [r3, #0]
  8001e3c:	2b00      	cmp	r3, #0
- 8001e3e:	d158      	bne.n	8001ef2 <ConfigSM+0xc6>
+ 8001e3e:	d10f      	bne.n	8001e60 <ConfigSM+0x34>
 		// Proceed to the next configuration
 		stMachConfig++;
  8001e40:	4b71      	ldr	r3, [pc, #452]	; (8002008 <ConfigSM+0x1dc>)
@@ -5785,11 +5785,12 @@ void ConfigSM(void) {
  8001e5a:	4b69      	ldr	r3, [pc, #420]	; (8002000 <ConfigSM+0x1d4>)
  8001e5c:	2200      	movs	r2, #0
  8001e5e:	601a      	str	r2, [r3, #0]
+	}
 
-		// Set up the power output regulators for the selected configuration
-		// To select 5V output, we ground out the select line via the open-drain GPIO by setting it low
-		// To select 3V3 output, we float the select line via the open-drain GPIO by setting it high
-		switch(stMachConfig) {
+	// Set up the power output regulators for the selected configuration
+	// To select 5V output, we ground out the select line via the open-drain GPIO by setting it low
+	// To select 3V3 output, we float the select line via the open-drain GPIO by setting it high
+	switch(stMachConfig) {
  8001e60:	4b69      	ldr	r3, [pc, #420]	; (8002008 <ConfigSM+0x1dc>)
  8001e62:	781b      	ldrb	r3, [r3, #0]
  8001e64:	2b03      	cmp	r3, #3
@@ -5803,8 +5804,8 @@ void ConfigSM(void) {
  8001e74:	2b01      	cmp	r3, #1
  8001e76:	d00f      	beq.n	8001e98 <ConfigSM+0x6c>
  8001e78:	e03b      	b.n	8001ef2 <ConfigSM+0xc6>
-			case st5T5B:
-				HAL_GPIO_WritePin(Select_VRailT_GPIO_Port,Select_VRailT_Pin,GPIO_PIN_RESET);
+		case st5T5B:
+			HAL_GPIO_WritePin(Select_VRailT_GPIO_Port,Select_VRailT_Pin,GPIO_PIN_RESET);
  8001e7a:	2380      	movs	r3, #128	; 0x80
  8001e7c:	0119      	lsls	r1, r3, #4
  8001e7e:	23a0      	movs	r3, #160	; 0xa0
@@ -5812,16 +5813,16 @@ void ConfigSM(void) {
  8001e82:	2200      	movs	r2, #0
  8001e84:	0018      	movs	r0, r3
  8001e86:	f7fe feaa 	bl	8000bde <HAL_GPIO_WritePin>
-				HAL_GPIO_WritePin(Select_VRailB_GPIO_Port,Select_VRailB_Pin,GPIO_PIN_RESET);
+			HAL_GPIO_WritePin(Select_VRailB_GPIO_Port,Select_VRailB_Pin,GPIO_PIN_RESET);
  8001e8a:	4b60      	ldr	r3, [pc, #384]	; (800200c <ConfigSM+0x1e0>)
  8001e8c:	2200      	movs	r2, #0
  8001e8e:	2180      	movs	r1, #128	; 0x80
  8001e90:	0018      	movs	r0, r3
  8001e92:	f7fe fea4 	bl	8000bde <HAL_GPIO_WritePin>
-				break;
+			break;
  8001e96:	e02c      	b.n	8001ef2 <ConfigSM+0xc6>
-			case st5T3B:
-				HAL_GPIO_WritePin(Select_VRailT_GPIO_Port,Select_VRailT_Pin,GPIO_PIN_RESET);
+		case st5T3B:
+			HAL_GPIO_WritePin(Select_VRailT_GPIO_Port,Select_VRailT_Pin,GPIO_PIN_RESET);
  8001e98:	2380      	movs	r3, #128	; 0x80
  8001e9a:	0119      	lsls	r1, r3, #4
  8001e9c:	23a0      	movs	r3, #160	; 0xa0
@@ -5829,16 +5830,16 @@ void ConfigSM(void) {
  8001ea0:	2200      	movs	r2, #0
  8001ea2:	0018      	movs	r0, r3
  8001ea4:	f7fe fe9b 	bl	8000bde <HAL_GPIO_WritePin>
-				HAL_GPIO_WritePin(Select_VRailB_GPIO_Port,Select_VRailB_Pin,GPIO_PIN_SET);
+			HAL_GPIO_WritePin(Select_VRailB_GPIO_Port,Select_VRailB_Pin,GPIO_PIN_SET);
  8001ea8:	4b58      	ldr	r3, [pc, #352]	; (800200c <ConfigSM+0x1e0>)
  8001eaa:	2201      	movs	r2, #1
  8001eac:	2180      	movs	r1, #128	; 0x80
  8001eae:	0018      	movs	r0, r3
  8001eb0:	f7fe fe95 	bl	8000bde <HAL_GPIO_WritePin>
-				break;
+			break;
  8001eb4:	e01d      	b.n	8001ef2 <ConfigSM+0xc6>
-			case st3T5B:
-				HAL_GPIO_WritePin(Select_VRailT_GPIO_Port,Select_VRailT_Pin,GPIO_PIN_SET);
+		case st3T5B:
+			HAL_GPIO_WritePin(Select_VRailT_GPIO_Port,Select_VRailT_Pin,GPIO_PIN_SET);
  8001eb6:	2380      	movs	r3, #128	; 0x80
  8001eb8:	0119      	lsls	r1, r3, #4
  8001eba:	23a0      	movs	r3, #160	; 0xa0
@@ -5846,16 +5847,16 @@ void ConfigSM(void) {
  8001ebe:	2201      	movs	r2, #1
  8001ec0:	0018      	movs	r0, r3
  8001ec2:	f7fe fe8c 	bl	8000bde <HAL_GPIO_WritePin>
-				HAL_GPIO_WritePin(Select_VRailB_GPIO_Port,Select_VRailB_Pin,GPIO_PIN_RESET);
+			HAL_GPIO_WritePin(Select_VRailB_GPIO_Port,Select_VRailB_Pin,GPIO_PIN_RESET);
  8001ec6:	4b51      	ldr	r3, [pc, #324]	; (800200c <ConfigSM+0x1e0>)
  8001ec8:	2200      	movs	r2, #0
  8001eca:	2180      	movs	r1, #128	; 0x80
  8001ecc:	0018      	movs	r0, r3
  8001ece:	f7fe fe86 	bl	8000bde <HAL_GPIO_WritePin>
-				break;
+			break;
  8001ed2:	e00e      	b.n	8001ef2 <ConfigSM+0xc6>
-			case st3T3B:
-				HAL_GPIO_WritePin(Select_VRailT_GPIO_Port,Select_VRailT_Pin,GPIO_PIN_SET);
+		case st3T3B:
+			HAL_GPIO_WritePin(Select_VRailT_GPIO_Port,Select_VRailT_Pin,GPIO_PIN_SET);
  8001ed4:	2380      	movs	r3, #128	; 0x80
  8001ed6:	0119      	lsls	r1, r3, #4
  8001ed8:	23a0      	movs	r3, #160	; 0xa0
@@ -5863,13 +5864,13 @@ void ConfigSM(void) {
  8001edc:	2201      	movs	r2, #1
  8001ede:	0018      	movs	r0, r3
  8001ee0:	f7fe fe7d 	bl	8000bde <HAL_GPIO_WritePin>
-				HAL_GPIO_WritePin(Select_VRailB_GPIO_Port,Select_VRailB_Pin,GPIO_PIN_SET);
+			HAL_GPIO_WritePin(Select_VRailB_GPIO_Port,Select_VRailB_Pin,GPIO_PIN_SET);
  8001ee4:	4b49      	ldr	r3, [pc, #292]	; (800200c <ConfigSM+0x1e0>)
  8001ee6:	2201      	movs	r2, #1
  8001ee8:	2180      	movs	r1, #128	; 0x80
  8001eea:	0018      	movs	r0, r3
  8001eec:	f7fe fe77 	bl	8000bde <HAL_GPIO_WritePin>
-				break;
+			break;
  8001ef0:	46c0      	nop			; (mov r8, r8)
 	}
 

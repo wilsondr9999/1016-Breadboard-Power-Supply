@@ -51,21 +51,21 @@ You will need to solder three through-hole components -- the DC power jack (PJ-1
 The two heat sinks are glued onto the back side of the board using thermal adhesive.  Note that this is thermal adhesive (glue), not just an ordinary thermal compound or thermal paste.  The adhesive is required, there is no other mechanical support for the heat sinks.
 #### 3D Printing the Case
 The case can be 3D printed using the .3mf files and PrusaSlicer, or if you want to slice the .stl files yourself, the .stl files are also included.  Printing settings are as follows:
-	- 0.12mm Layer Height
-	- 0.4mm Nozzle
-	- PETG material, do not use PLA.  The snap-together design needs a flexible plastic, PLA is too brittle and will likely break when trying to snap together the case.  Also, PLA is not as temperature-resistant as PETG, and the heat sinks could cause problems the PLA.
-	- For the LED lenses, you will need a clear PETG filament.  I have had good results with PolyMaker PolyLite Clear PETG.
-	- Supports are not required, but both case halves should be printed with their flat surface on the print bed.  You may need to turn the upper case half so that the flat top is on the print bed.
-	- The upper case half prints with a thin bridge covering the LED lens holes, you will need to clean out the bridges with a hobbyist knife prior to inserting the LED lenses.
-	- It is critical that the buttons are printed to accurate dimensions as the clearances and travel are very small.  Print the buttons at a very slow speed with adequate time for each layer to cool to prevent any warping or distortion.  The .3mf file already has these settings pre-set.
+- 0.12mm Layer Height
+- 0.4mm Nozzle
+- PETG material, do not use PLA.  The snap-together design needs a flexible plastic, PLA is too brittle and will likely break when trying to snap together the case.  Also, PLA is not as temperature-resistant as PETG, and the heat sinks could cause problems the PLA.
+- For the LED lenses, you will need a clear PETG filament.  I have had good results with PolyMaker PolyLite Clear PETG.
+- Supports are not required, but both case halves should be printed with their flat surface on the print bed.  You may need to turn the upper case half so that the flat top is on the print bed.
+- The upper case half prints with a thin bridge covering the LED lens holes, you will need to clean out the bridges with a hobbyist knife prior to inserting the LED lenses.
+- It is critical that the buttons are printed to accurate dimensions as the clearances and travel are very small.  Print the buttons at a very slow speed with adequate time for each layer to cool to prevent any warping or distortion.  The .3mf file already has these settings pre-set.
 #### Programming Firmware to the STM32
 The STM32C0 firmware file is in "STM32 Project/Debug/1016 Breadboard Power Supply.elf".  This can be programmed to the STM32C0 using the [ST-Link/V2](https://www.st.com/en/development-tools/st-link-v2.html) debugger and the [Tag-Connect ARM20-CTX SWD Solution](https://www.tag-connect.com/debugger-cable-selection-installation-instructions/st-link-v2#49_126_145).  The 6-pin Tag-Connect connector connects with the J2 connector on the PCB, and the [STM32CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html) software can write the firmware to the MCU.
 
 Note that if you order the Tag-Connect SWD solution, you need the "No-Legs" version of the package that includes the TC-2030-IDC-NL cable.  The version of the cable with legs (TC-2030-IDC) will not properly fit this PCB.
 #### Assembling the Unit
 Once the PCB has been populated and soldered with the SMD and THT components, the heat sinks are attached with the thermal adhesive, and the case parts have been printed you can assemble the entire unit.
-	- Turn the upper half of the case upside down, and insert the two buttons, aligning the base of the buttons so that they will fit over the SMD switches on the PCB.  Tape the buttons in place on the top side.  Fold the tape around the protruding button so that the button is at the top of it's travel (most protrusion).
-	- Insert the PCB into the case bottom, the heat sinks will fit inside the cooling passages, and the holes in the PCB will fit on the support pins.
+- Turn the upper half of the case upside down, and insert the two buttons, aligning the base of the buttons so that they will fit over the SMD switches on the PCB.  Tape the buttons in place on the top side.  Fold the tape around the protruding button so that the button is at the top of it's travel (most protrusion).
+- Insert the PCB into the case bottom, the heat sinks will fit inside the cooling passages, and the holes in the PCB will fit on the support pins.
 
 ## Using the Breadboard Power Supply
 Plug the unit into your breadboard into the power rails.  As you're looking at the unit, the power arms/leads should point towards your right.  In this position, the TOP pins of each rail (furthest away from you) are the positive voltage, the BOTTOM pins of each rail (closest to you) are the reference voltage (ground).  Orient your breadboard so that the red/positive row of pins aligns with the positive pin of the unit (away from you).  If your breadboard is turned 180 degrees, the colors of the power rails will be opposite, and will cause confusion.

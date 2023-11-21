@@ -203,25 +203,28 @@ static void MX_GPIO_Init(void)
   __HAL_RCC_GPIOB_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOA, LED_Error_Pin|LED_Output_Pin|LED_5VT_Pin|LED_5VB_Pin
-                          |LED_3V3T_Pin|LED_3V3B_Pin, GPIO_PIN_SET);
+  HAL_GPIO_WritePin(GPIOA, LED_3V3B_Pin|LED_5VB_Pin|LED_Output_Pin|LED_Error_Pin
+                          |LED_3V3T_Pin|LED_5VT_Pin|Select_VRailT_Pin, GPIO_PIN_SET);
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOA, Select_VRailB_Pin|Select_VRailT_Pin|Output_Enable_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(Output_Enable_GPIO_Port, Output_Enable_Pin, GPIO_PIN_RESET);
 
-  /*Configure GPIO pins : LED_Error_Pin LED_Output_Pin LED_5VT_Pin LED_5VB_Pin
-                           LED_3V3T_Pin LED_3V3B_Pin Select_VRailB_Pin Select_VRailT_Pin */
-  GPIO_InitStruct.Pin = LED_Error_Pin|LED_Output_Pin|LED_5VT_Pin|LED_5VB_Pin
-                          |LED_3V3T_Pin|LED_3V3B_Pin|Select_VRailB_Pin|Select_VRailT_Pin;
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(Select_VRailB_GPIO_Port, Select_VRailB_Pin, GPIO_PIN_SET);
+
+  /*Configure GPIO pins : PGood_RailB_Pin PGood_RailT_Pin */
+  GPIO_InitStruct.Pin = PGood_RailB_Pin|PGood_RailT_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : LED_3V3B_Pin LED_5VB_Pin LED_Output_Pin LED_Error_Pin
+                           LED_3V3T_Pin LED_5VT_Pin Select_VRailT_Pin */
+  GPIO_InitStruct.Pin = LED_3V3B_Pin|LED_5VB_Pin|LED_Output_Pin|LED_Error_Pin
+                          |LED_3V3T_Pin|LED_5VT_Pin|Select_VRailT_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_OD;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
-
-  /*Configure GPIO pins : Btn_Config_Pin Btn_OutputEn_Pin */
-  GPIO_InitStruct.Pin = Btn_Config_Pin|Btn_OutputEn_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_PULLUP;
   HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
 
   /*Configure GPIO pin : Output_Enable_Pin */
@@ -231,11 +234,24 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(Output_Enable_GPIO_Port, &GPIO_InitStruct);
 
-  /*Configure GPIO pins : PGood_RailB_Pin PGood_RailT_Pin */
-  GPIO_InitStruct.Pin = PGood_RailB_Pin|PGood_RailT_Pin;
+  /*Configure GPIO pin : Btn_Config_Pin */
+  GPIO_InitStruct.Pin = Btn_Config_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
   GPIO_InitStruct.Pull = GPIO_PULLUP;
-  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+  HAL_GPIO_Init(Btn_Config_GPIO_Port, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : Btn_OutputEn_Pin */
+  GPIO_InitStruct.Pin = Btn_OutputEn_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_PULLUP;
+  HAL_GPIO_Init(Btn_OutputEn_GPIO_Port, &GPIO_InitStruct);
+
+  /*Configure GPIO pin : Select_VRailB_Pin */
+  GPIO_InitStruct.Pin = Select_VRailB_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_OD;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(Select_VRailB_GPIO_Port, &GPIO_InitStruct);
 
 /* USER CODE BEGIN MX_GPIO_Init_2 */
 /* USER CODE END MX_GPIO_Init_2 */

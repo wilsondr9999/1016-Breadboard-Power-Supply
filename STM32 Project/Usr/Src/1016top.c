@@ -239,28 +239,28 @@ void ConfigSM(void) {
 		// Flag that this button press has been recognized,
 		// this makes sure the state only changes once per button press
 		stMachConfigBtnDetected=0;
+	}
 
-		// Set up the power output regulators for the selected configuration
-		// To select 5V output, we ground out the select line via the open-drain GPIO by setting it low
-		// To select 3V3 output, we float the select line via the open-drain GPIO by setting it high
-		switch(stMachConfig) {
-			case st5T5B:
-				HAL_GPIO_WritePin(Select_VRailT_GPIO_Port,Select_VRailT_Pin,GPIO_PIN_RESET);
-				HAL_GPIO_WritePin(Select_VRailB_GPIO_Port,Select_VRailB_Pin,GPIO_PIN_RESET);
-				break;
-			case st5T3B:
-				HAL_GPIO_WritePin(Select_VRailT_GPIO_Port,Select_VRailT_Pin,GPIO_PIN_RESET);
-				HAL_GPIO_WritePin(Select_VRailB_GPIO_Port,Select_VRailB_Pin,GPIO_PIN_SET);
-				break;
-			case st3T5B:
-				HAL_GPIO_WritePin(Select_VRailT_GPIO_Port,Select_VRailT_Pin,GPIO_PIN_SET);
-				HAL_GPIO_WritePin(Select_VRailB_GPIO_Port,Select_VRailB_Pin,GPIO_PIN_RESET);
-				break;
-			case st3T3B:
-				HAL_GPIO_WritePin(Select_VRailT_GPIO_Port,Select_VRailT_Pin,GPIO_PIN_SET);
-				HAL_GPIO_WritePin(Select_VRailB_GPIO_Port,Select_VRailB_Pin,GPIO_PIN_SET);
-				break;
-		}
+	// Set up the power output regulators for the selected configuration
+	// To select 5V output, we ground out the select line via the open-drain GPIO by setting it low
+	// To select 3V3 output, we float the select line via the open-drain GPIO by setting it high
+	switch(stMachConfig) {
+		case st5T5B:
+			HAL_GPIO_WritePin(Select_VRailT_GPIO_Port,Select_VRailT_Pin,GPIO_PIN_RESET);
+			HAL_GPIO_WritePin(Select_VRailB_GPIO_Port,Select_VRailB_Pin,GPIO_PIN_RESET);
+			break;
+		case st5T3B:
+			HAL_GPIO_WritePin(Select_VRailT_GPIO_Port,Select_VRailT_Pin,GPIO_PIN_RESET);
+			HAL_GPIO_WritePin(Select_VRailB_GPIO_Port,Select_VRailB_Pin,GPIO_PIN_SET);
+			break;
+		case st3T5B:
+			HAL_GPIO_WritePin(Select_VRailT_GPIO_Port,Select_VRailT_Pin,GPIO_PIN_SET);
+			HAL_GPIO_WritePin(Select_VRailB_GPIO_Port,Select_VRailB_Pin,GPIO_PIN_RESET);
+			break;
+		case st3T3B:
+			HAL_GPIO_WritePin(Select_VRailT_GPIO_Port,Select_VRailT_Pin,GPIO_PIN_SET);
+			HAL_GPIO_WritePin(Select_VRailB_GPIO_Port,Select_VRailB_Pin,GPIO_PIN_SET);
+			break;
 	}
 
 	// Set LED indicators

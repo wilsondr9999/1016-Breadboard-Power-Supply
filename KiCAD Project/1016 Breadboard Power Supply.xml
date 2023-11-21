@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\EE\Projects\1016 Breadboard Power Supply\KiCAD Project\1016 Breadboard Power Supply.kicad_sch</source>
-    <date>10/8/2023 12:24:57 PM</date>
+    <date>10/30/2023 2:39:05 PM</date>
     <tool>Eeschema 7.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -132,6 +132,56 @@
     </sheet>
   </design>
   <components>
+    <comp ref="HS1">
+      <value>Heat Sink</value>
+      <footprint>1016:HSB01-080808</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/670/hsb01_080808-2449749.pdf</datasheet>
+      <fields>
+        <field name="Description">Heat Sink</field>
+        <field name="Height">8</field>
+        <field name="Manufacturer_Name">CUI Devices</field>
+        <field name="Manufacturer_Part_Number">HSB01-080808</field>
+        <field name="Mouser Part Number">490-HSB01-080808</field>
+        <field name="Spec">8.5mm x 8.5mm Al</field>
+      </fields>
+      <libsource lib="1016" part="HSB01-080808" description="Al Heat Sink 8.5mm x 8.5mm"/>
+      <property name="Description" value="Heat Sink"/>
+      <property name="Height" value="8"/>
+      <property name="Manufacturer_Name" value="CUI Devices"/>
+      <property name="Manufacturer_Part_Number" value="HSB01-080808"/>
+      <property name="Mouser Part Number" value="490-HSB01-080808"/>
+      <property name="Spec" value="8.5mm x 8.5mm Al"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="1016 Breadboard Power Supply.kicad_sch"/>
+      <property name="ki_description" value="Al Heat Sink 8.5mm x 8.5mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98b9c0d6-3953-404b-b46e-5f65d42d9080</tstamps>
+    </comp>
+    <comp ref="HS2">
+      <value>Heat Sink</value>
+      <footprint>1016:HSB01-080808</footprint>
+      <datasheet>https://www.mouser.com/datasheet/2/670/hsb01_080808-2449749.pdf</datasheet>
+      <fields>
+        <field name="Description">Heat Sink</field>
+        <field name="Height">8</field>
+        <field name="Manufacturer_Name">CUI Devices</field>
+        <field name="Manufacturer_Part_Number">HSB01-080808</field>
+        <field name="Mouser Part Number">490-HSB01-080808</field>
+        <field name="Spec">8.5mm x 8.5mm Al</field>
+      </fields>
+      <libsource lib="1016" part="HSB01-080808" description="Al Heat Sink 8.5mm x 8.5mm"/>
+      <property name="Description" value="Heat Sink"/>
+      <property name="Height" value="8"/>
+      <property name="Manufacturer_Name" value="CUI Devices"/>
+      <property name="Manufacturer_Part_Number" value="HSB01-080808"/>
+      <property name="Mouser Part Number" value="490-HSB01-080808"/>
+      <property name="Spec" value="8.5mm x 8.5mm Al"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="1016 Breadboard Power Supply.kicad_sch"/>
+      <property name="ki_description" value="Al Heat Sink 8.5mm x 8.5mm"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a2b2a7fb-5eb1-4683-9a3e-a718c49dd2b9</tstamps>
+    </comp>
     <comp ref="C1">
       <value>22µ</value>
       <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
@@ -622,54 +672,54 @@
       <sheetpath names="/MCU Power Regulator/" tstamps="/280adcb7-ede6-4688-bc7e-541657c4a091/"/>
       <tstamps>0b1ebbd6-a735-4acd-9d05-7271c5d5c331</tstamps>
     </comp>
-    <comp ref="R5">
-      <value>1K6</value>
+    <comp ref="R10">
+      <value>10K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>https://www.mouser.com/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf</datasheet>
       <fields>
-        <field name="Description">Output Discharge Resistor</field>
+        <field name="Description">Power Good Pull-Up Resistor</field>
         <field name="Height">0.45</field>
-        <field name="LCSC Part Number">C165489</field>
+        <field name="LCSC Part Number">C98220</field>
         <field name="Manufacturer_Name">Yageo</field>
-        <field name="Manufacturer_Part_Number">RC0603FR-071K6L</field>
-        <field name="Mouser Part Number">603-RC0603FR-071K6L</field>
-        <field name="Spec">1K6 100mW</field>
+        <field name="Manufacturer_Part_Number">RC0603FR-0710KL</field>
+        <field name="Mouser Part Number">603-RC0603FR-0710KL</field>
+        <field name="Spec">10K 100mW</field>
       </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
-      <property name="Description" value="Output Discharge Resistor"/>
+      <property name="Description" value="Power Good Pull-Up Resistor"/>
       <property name="Height" value="0.45"/>
-      <property name="LCSC Part Number" value="C165489"/>
+      <property name="LCSC Part Number" value="C98220"/>
       <property name="Manufacturer_Name" value="Yageo"/>
-      <property name="Manufacturer_Part_Number" value="RC0603FR-071K6L"/>
-      <property name="Mouser Part Number" value="603-RC0603FR-071K6L"/>
-      <property name="Spec" value="1K6 100mW"/>
+      <property name="Manufacturer_Part_Number" value="RC0603FR-0710KL"/>
+      <property name="Mouser Part Number" value="603-RC0603FR-0710KL"/>
+      <property name="Spec" value="10K 100mW"/>
       <property name="Sheetname" value="MCU Power Regulator"/>
       <property name="Sheetfile" value="MCU Power Regulator.kicad_sch"/>
       <property name="ki_description" value="Resistor, US symbol"/>
       <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/MCU Power Regulator/" tstamps="/280adcb7-ede6-4688-bc7e-541657c4a091/"/>
-      <tstamps>96718a9d-0840-458d-b70b-cb5df543693d</tstamps>
+      <tstamps>dda5a152-cc58-460a-bb86-9aec1185954c</tstamps>
     </comp>
     <comp ref="U1">
-      <value>TPS62130RGTR</value>
+      <value>TPS62130ARGTR</value>
       <footprint>QFN50P300X300X100-17N-D</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/tps62130.pdf</datasheet>
       <fields>
         <field name="Description">MCU Regulator</field>
         <field name="Height">1</field>
-        <field name="LCSC Part Number">C43590</field>
+        <field name="LCSC Part Number">C337502</field>
         <field name="Manufacturer_Name">Texas Instruments</field>
-        <field name="Manufacturer_Part_Number">TPS62130RGTR</field>
-        <field name="Mouser Part Number">595-TPS62130RGTR</field>
+        <field name="Manufacturer_Part_Number">TPS62130ARGTR</field>
+        <field name="Mouser Part Number">595-TPS62130ARGTR</field>
         <field name="Spec">2.5MHz Buck Reg</field>
       </fields>
       <libsource lib="1016" part="TPS62130RGTR" description="3-17V 3A Step-Down Converter with DCS-Control in 3x3 QFN Package"/>
       <property name="Height" value="1"/>
       <property name="Manufacturer_Name" value="Texas Instruments"/>
-      <property name="Manufacturer_Part_Number" value="TPS62130RGTR"/>
-      <property name="Mouser Part Number" value="595-TPS62130RGTR"/>
+      <property name="Manufacturer_Part_Number" value="TPS62130ARGTR"/>
+      <property name="Mouser Part Number" value="595-TPS62130ARGTR"/>
       <property name="Description" value="MCU Regulator"/>
-      <property name="LCSC Part Number" value="C43590"/>
+      <property name="LCSC Part Number" value="C337502"/>
       <property name="Spec" value="2.5MHz Buck Reg"/>
       <property name="Sheetname" value="MCU Power Regulator"/>
       <property name="Sheetfile" value="MCU Power Regulator.kicad_sch"/>
@@ -814,33 +864,33 @@
       <sheetpath names="/Rail T Power Regulator/" tstamps="/1995aaec-8535-485d-8210-75eb1f946442/"/>
       <tstamps>7e2e90fe-26fc-4575-80be-92edd0cfd146</tstamps>
     </comp>
-    <comp ref="R6">
-      <value>1K6</value>
+    <comp ref="R5">
+      <value>10K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>https://www.mouser.com/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf</datasheet>
       <fields>
-        <field name="Description">Output Discharge Resistor</field>
+        <field name="Description">Power Good Pull-Up Resistor</field>
         <field name="Height">0.45</field>
-        <field name="LCSC Part Number">C165489</field>
+        <field name="LCSC Part Number">C98220</field>
         <field name="Manufacturer_Name">Yageo</field>
-        <field name="Manufacturer_Part_Number">RC0603FR-071K6L</field>
-        <field name="Mouser Part Number">603-RC0603FR-071K6L</field>
-        <field name="Spec">1K6 100mW</field>
+        <field name="Manufacturer_Part_Number">RC0603FR-0710KL</field>
+        <field name="Mouser Part Number">603-RC0603FR-0710KL</field>
+        <field name="Spec">10K 100mW</field>
       </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
-      <property name="Description" value="Output Discharge Resistor"/>
+      <property name="Description" value="Power Good Pull-Up Resistor"/>
       <property name="Height" value="0.45"/>
-      <property name="LCSC Part Number" value="C165489"/>
+      <property name="LCSC Part Number" value="C98220"/>
       <property name="Manufacturer_Name" value="Yageo"/>
-      <property name="Manufacturer_Part_Number" value="RC0603FR-071K6L"/>
-      <property name="Mouser Part Number" value="603-RC0603FR-071K6L"/>
-      <property name="Spec" value="1K6 100mW"/>
+      <property name="Manufacturer_Part_Number" value="RC0603FR-0710KL"/>
+      <property name="Mouser Part Number" value="603-RC0603FR-0710KL"/>
+      <property name="Spec" value="10K 100mW"/>
       <property name="Sheetname" value="Rail T Power Regulator"/>
       <property name="Sheetfile" value="Rail T Power Regulator.kicad_sch"/>
       <property name="ki_description" value="Resistor, US symbol"/>
       <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/Rail T Power Regulator/" tstamps="/1995aaec-8535-485d-8210-75eb1f946442/"/>
-      <tstamps>54939d7a-1432-4ae8-b978-980096749ad9</tstamps>
+      <tstamps>d653aa76-84e3-486b-bd36-30c66f3e1224</tstamps>
     </comp>
     <comp ref="R7">
       <value>220K</value>
@@ -927,25 +977,25 @@
       <tstamps>3f0f9121-7630-439b-9f0a-84f0c533c5ac</tstamps>
     </comp>
     <comp ref="U2">
-      <value>TPS62130RGTR</value>
+      <value>TPS62130ARGTR</value>
       <footprint>QFN50P300X300X100-17N-D</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/tps62130.pdf</datasheet>
       <fields>
         <field name="Description">MCU Regulator</field>
         <field name="Height">1</field>
-        <field name="LCSC Part Number">C43590</field>
+        <field name="LCSC Part Number">C337502</field>
         <field name="Manufacturer_Name">Texas Instruments</field>
-        <field name="Manufacturer_Part_Number">TPS62130RGTR</field>
-        <field name="Mouser Part Number">595-TPS62130RGTR</field>
+        <field name="Manufacturer_Part_Number">TPS62130ARGTR</field>
+        <field name="Mouser Part Number">595-TPS62130ARGTR</field>
         <field name="Spec">2.5MHz Buck Reg</field>
       </fields>
       <libsource lib="1016" part="TPS62130RGTR" description="3-17V 3A Step-Down Converter with DCS-Control in 3x3 QFN Package"/>
       <property name="Height" value="1"/>
       <property name="Manufacturer_Name" value="Texas Instruments"/>
-      <property name="Manufacturer_Part_Number" value="TPS62130RGTR"/>
-      <property name="Mouser Part Number" value="595-TPS62130RGTR"/>
+      <property name="Manufacturer_Part_Number" value="TPS62130ARGTR"/>
+      <property name="Mouser Part Number" value="595-TPS62130ARGTR"/>
       <property name="Description" value="MCU Regulator"/>
-      <property name="LCSC Part Number" value="C43590"/>
+      <property name="LCSC Part Number" value="C337502"/>
       <property name="Spec" value="2.5MHz Buck Reg"/>
       <property name="Sheetname" value="Rail T Power Regulator"/>
       <property name="Sheetfile" value="Rail T Power Regulator.kicad_sch"/>
@@ -1090,33 +1140,33 @@
       <sheetpath names="/Rail B Power Regulator/" tstamps="/db2e6b67-906b-4487-b3aa-e456085ef032/"/>
       <tstamps>665f0bd8-437c-42c7-b5ba-8d854233476b</tstamps>
     </comp>
-    <comp ref="R10">
-      <value>1K6</value>
+    <comp ref="R6">
+      <value>10K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>https://www.mouser.com/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf</datasheet>
       <fields>
-        <field name="Description">Output Discharge Resistor</field>
+        <field name="Description">Power Good Pull-Up Resistor</field>
         <field name="Height">0.45</field>
-        <field name="LCSC Part Number">C165489</field>
+        <field name="LCSC Part Number">C98220</field>
         <field name="Manufacturer_Name">Yageo</field>
-        <field name="Manufacturer_Part_Number">RC0603FR-071K6L</field>
-        <field name="Mouser Part Number">603-RC0603FR-071K6L</field>
-        <field name="Spec">1K6 100mW</field>
+        <field name="Manufacturer_Part_Number">RC0603FR-0710KL</field>
+        <field name="Mouser Part Number">603-RC0603FR-0710KL</field>
+        <field name="Spec">10K 100mW</field>
       </fields>
       <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
-      <property name="Description" value="Output Discharge Resistor"/>
+      <property name="Description" value="Power Good Pull-Up Resistor"/>
       <property name="Height" value="0.45"/>
-      <property name="LCSC Part Number" value="C165489"/>
+      <property name="LCSC Part Number" value="C98220"/>
       <property name="Manufacturer_Name" value="Yageo"/>
-      <property name="Manufacturer_Part_Number" value="RC0603FR-071K6L"/>
-      <property name="Mouser Part Number" value="603-RC0603FR-071K6L"/>
-      <property name="Spec" value="1K6 100mW"/>
+      <property name="Manufacturer_Part_Number" value="RC0603FR-0710KL"/>
+      <property name="Mouser Part Number" value="603-RC0603FR-0710KL"/>
+      <property name="Spec" value="10K 100mW"/>
       <property name="Sheetname" value="Rail B Power Regulator"/>
       <property name="Sheetfile" value="Rail B Power Regulator.kicad_sch"/>
       <property name="ki_description" value="Resistor, US symbol"/>
       <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/Rail B Power Regulator/" tstamps="/db2e6b67-906b-4487-b3aa-e456085ef032/"/>
-      <tstamps>69f1694c-3d97-448e-911b-0b2e1e2f6438</tstamps>
+      <tstamps>62ec199c-180a-4a2b-8158-819bff091008</tstamps>
     </comp>
     <comp ref="R11">
       <value>220K</value>
@@ -1203,25 +1253,25 @@
       <tstamps>fd98ab64-215f-40d5-a855-4e7456a76cce</tstamps>
     </comp>
     <comp ref="U3">
-      <value>TPS62130RGTR</value>
+      <value>TPS62130ARGTR</value>
       <footprint>QFN50P300X300X100-17N-D</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/tps62130.pdf</datasheet>
       <fields>
         <field name="Description">MCU Regulator</field>
         <field name="Height">1</field>
-        <field name="LCSC Part Number">C43590</field>
+        <field name="LCSC Part Number">C337502</field>
         <field name="Manufacturer_Name">Texas Instruments</field>
-        <field name="Manufacturer_Part_Number">TPS62130RGTR</field>
-        <field name="Mouser Part Number">595-TPS62130RGTR</field>
+        <field name="Manufacturer_Part_Number">TPS62130ARGTR</field>
+        <field name="Mouser Part Number">595-TPS62130ARGTR</field>
         <field name="Spec">2.5MHz Buck Reg</field>
       </fields>
       <libsource lib="1016" part="TPS62130RGTR" description="3-17V 3A Step-Down Converter with DCS-Control in 3x3 QFN Package"/>
       <property name="Height" value="1"/>
       <property name="Manufacturer_Name" value="Texas Instruments"/>
-      <property name="Manufacturer_Part_Number" value="TPS62130RGTR"/>
-      <property name="Mouser Part Number" value="595-TPS62130RGTR"/>
+      <property name="Manufacturer_Part_Number" value="TPS62130ARGTR"/>
+      <property name="Mouser Part Number" value="595-TPS62130ARGTR"/>
       <property name="Description" value="MCU Regulator"/>
-      <property name="LCSC Part Number" value="C43590"/>
+      <property name="LCSC Part Number" value="C337502"/>
       <property name="Spec" value="2.5MHz Buck Reg"/>
       <property name="Sheetname" value="Rail B Power Regulator"/>
       <property name="Sheetfile" value="Rail B Power Regulator.kicad_sch"/>
@@ -1839,6 +1889,16 @@
         <pin num="8" name="S_2" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="1016" part="HSB01-080808">
+      <description>Al Heat Sink 8.5mm x 8.5mm</description>
+      <docs>https://www.mouser.com/datasheet/2/670/hsb01_080808-2449749.pdf</docs>
+      <fields>
+        <field name="Reference">HS</field>
+        <field name="Value">Heat Sink</field>
+        <field name="Footprint">1016:HSB01-080808</field>
+        <field name="Datasheet">https://www.mouser.com/datasheet/2/670/hsb01_080808-2449749.pdf</field>
+      </fields>
+    </libpart>
     <libpart lib="1016" part="MMSZ5231B-7-F">
       <description>Zener Diode 5.1V 5% 500mW SOD123 Diodes Inc MMSZ5231B-7-F Zener Diode, 5.1V 5% 0.5 W SMT 2-Pin SOD-123</description>
       <docs>https://www.diodes.com/assets/Datasheets/ds18010.pdf</docs>
@@ -2190,12 +2250,9 @@
       <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
-      <node ref="R10" pin="1" pintype="passive"/>
       <node ref="R13" pin="2" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="R4" pin="2" pintype="passive"/>
-      <node ref="R5" pin="1" pintype="passive"/>
-      <node ref="R6" pin="1" pintype="passive"/>
       <node ref="R9" pin="2" pintype="passive"/>
       <node ref="S1" pin="1" pinfunction="COM" pintype="passive"/>
       <node ref="S2" pin="1" pinfunction="COM" pintype="passive"/>
@@ -2235,15 +2292,12 @@
       <node ref="U1" pin="11" pinfunction="PVIN_1" pintype="passive"/>
       <node ref="U1" pin="12" pinfunction="PVIN_2" pintype="passive"/>
       <node ref="U1" pin="13" pinfunction="EN" pintype="passive"/>
-      <node ref="U1" pin="7" pinfunction="FSW" pintype="passive"/>
       <node ref="U2" pin="10" pinfunction="AVIN" pintype="passive"/>
       <node ref="U2" pin="11" pinfunction="PVIN_1" pintype="passive"/>
       <node ref="U2" pin="12" pinfunction="PVIN_2" pintype="passive"/>
-      <node ref="U2" pin="7" pinfunction="FSW" pintype="passive"/>
       <node ref="U3" pin="10" pinfunction="AVIN" pintype="passive"/>
       <node ref="U3" pin="11" pinfunction="PVIN_1" pintype="passive"/>
       <node ref="U3" pin="12" pinfunction="PVIN_2" pintype="passive"/>
-      <node ref="U3" pin="7" pinfunction="FSW" pintype="passive"/>
     </net>
     <net code="4" name="/Input Power/Vfused">
       <node ref="CR1" pin="1" pintype="passive"/>
@@ -2271,7 +2325,7 @@
     </net>
     <net code="8" name="/MCU Control/3V3BLED_Sig">
       <node ref="LED7" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="U4" pin="10" pinfunction="PA5" pintype="bidirectional"/>
+      <node ref="U4" pin="6" pinfunction="PA1" pintype="bidirectional"/>
     </net>
     <net code="9" name="/MCU Control/3V3TLED_A">
       <node ref="LED6" pin="1" pinfunction="A" pintype="passive"/>
@@ -2279,7 +2333,7 @@
     </net>
     <net code="10" name="/MCU Control/3V3TLED_Sig">
       <node ref="LED6" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="U4" pin="9" pinfunction="PA4" pintype="bidirectional"/>
+      <node ref="U4" pin="10" pinfunction="PA5" pintype="bidirectional"/>
     </net>
     <net code="11" name="/MCU Control/5VBLED_A">
       <node ref="LED5" pin="1" pinfunction="A" pintype="passive"/>
@@ -2287,7 +2341,7 @@
     </net>
     <net code="12" name="/MCU Control/5VBLED_Sig">
       <node ref="LED5" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="U4" pin="8" pinfunction="PA3" pintype="bidirectional"/>
+      <node ref="U4" pin="7" pinfunction="PA2" pintype="bidirectional"/>
     </net>
     <net code="13" name="/MCU Control/5VTLED_A">
       <node ref="LED4" pin="1" pinfunction="A" pintype="passive"/>
@@ -2295,20 +2349,20 @@
     </net>
     <net code="14" name="/MCU Control/5VTLED_Sig">
       <node ref="LED4" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="U4" pin="7" pinfunction="PA2" pintype="bidirectional"/>
+      <node ref="U4" pin="11" pinfunction="PA6" pintype="bidirectional"/>
     </net>
     <net code="15" name="/MCU Control/Btn_Config">
       <node ref="S2" pin="2" pinfunction="NO" pintype="passive"/>
-      <node ref="U4" pin="11" pinfunction="PA6" pintype="bidirectional"/>
+      <node ref="U4" pin="15" pinfunction="PA12[PA10]" pintype="bidirectional"/>
     </net>
     <net code="16" name="/MCU Control/Btn_OutputEn">
       <node ref="S1" pin="2" pinfunction="NO" pintype="passive"/>
-      <node ref="U4" pin="12" pinfunction="PA7" pintype="bidirectional"/>
+      <node ref="U4" pin="18" pinfunction="PB6" pintype="bidirectional"/>
     </net>
     <net code="17" name="/MCU Control/Enable_Output">
       <node ref="U2" pin="13" pinfunction="EN" pintype="passive"/>
       <node ref="U3" pin="13" pinfunction="EN" pintype="passive"/>
-      <node ref="U4" pin="15" pinfunction="PA12[PA10]" pintype="bidirectional"/>
+      <node ref="U4" pin="12" pinfunction="PA7" pintype="bidirectional"/>
     </net>
     <net code="18" name="/MCU Control/ErrorLED_A">
       <node ref="LED2" pin="1" pinfunction="A" pintype="passive"/>
@@ -2316,7 +2370,7 @@
     </net>
     <net code="19" name="/MCU Control/ErrorLED_Sig">
       <node ref="LED2" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="U4" pin="5" pinfunction="PA0" pintype="bidirectional"/>
+      <node ref="U4" pin="9" pinfunction="PA4" pintype="bidirectional"/>
     </net>
     <net code="20" name="/MCU Control/NRST">
       <node ref="R14" pin="2" pintype="passive"/>
@@ -2328,15 +2382,17 @@
     </net>
     <net code="22" name="/MCU Control/OutputLED_Sig">
       <node ref="LED3" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="U4" pin="6" pinfunction="PA1" pintype="bidirectional"/>
+      <node ref="U4" pin="8" pinfunction="PA3" pintype="bidirectional"/>
     </net>
     <net code="23" name="/MCU Control/PGood_RailB">
+      <node ref="R6" pin="2" pintype="passive"/>
       <node ref="U3" pin="4" pinfunction="PG" pintype="passive"/>
-      <node ref="U4" pin="18" pinfunction="PB6" pintype="bidirectional"/>
+      <node ref="U4" pin="5" pinfunction="PA0" pintype="bidirectional"/>
     </net>
     <net code="24" name="/MCU Control/PGood_RailT">
+      <node ref="R5" pin="2" pintype="passive"/>
       <node ref="U2" pin="4" pinfunction="PG" pintype="passive"/>
-      <node ref="U4" pin="19" pinfunction="PB7" pintype="bidirectional"/>
+      <node ref="U4" pin="13" pinfunction="PA8" pintype="bidirectional"/>
     </net>
     <net code="25" name="/MCU Control/SWDCLK">
       <node ref="U4" pin="17" pinfunction="PA14-BOOT0" pintype="bidirectional"/>
@@ -2347,7 +2403,7 @@
     <net code="27" name="/MCU Control/SelectVrailB">
       <node ref="R12" pin="2" pintype="passive"/>
       <node ref="R13" pin="1" pintype="passive"/>
-      <node ref="U4" pin="13" pinfunction="PA8" pintype="bidirectional"/>
+      <node ref="U4" pin="19" pinfunction="PB7" pintype="bidirectional"/>
     </net>
     <net code="28" name="/MCU Control/SelectVrailT">
       <node ref="R8" pin="2" pintype="passive"/>
@@ -2358,6 +2414,7 @@
       <node ref="C15" pin="1" pintype="passive"/>
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
       <node ref="R14" pin="1" pintype="passive"/>
       <node ref="R15" pin="2" pintype="passive"/>
       <node ref="R16" pin="2" pintype="passive"/>
@@ -2366,8 +2423,8 @@
       <node ref="R19" pin="2" pintype="passive"/>
       <node ref="R20" pin="2" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
-      <node ref="R5" pin="2" pintype="passive"/>
       <node ref="U1" pin="14" pinfunction="VOS" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="FSW" pintype="passive"/>
       <node ref="U4" pin="2" pinfunction="VDD/VDDA" pintype="power_in"/>
     </net>
     <net code="30" name="/MCU Power Regulator/MCUReg_FB">
@@ -2385,63 +2442,66 @@
       <node ref="U1" pin="2" pinfunction="SW_2" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="SW_3" pintype="passive"/>
     </net>
-    <net code="33" name="/Rail B Power Regulator/RailBReg_FB">
+    <net code="33" name="/MCU Power Regulator/PGood_MCU">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="PG" pintype="passive"/>
+    </net>
+    <net code="34" name="/Rail B Power Regulator/RailBReg_FB">
       <node ref="R11" pin="2" pintype="passive"/>
       <node ref="R12" pin="1" pintype="passive"/>
       <node ref="U3" pin="5" pinfunction="FB" pintype="passive"/>
     </net>
-    <net code="34" name="/Rail B Power Regulator/RailBReg_SS">
+    <net code="35" name="/Rail B Power Regulator/RailBReg_SS">
       <node ref="C13" pin="2" pintype="passive"/>
       <node ref="U3" pin="9" pinfunction="SS/TR" pintype="passive"/>
     </net>
-    <net code="35" name="/Rail B Power Regulator/RailBReg_Sw_Out">
+    <net code="36" name="/Rail B Power Regulator/RailBReg_Sw_Out">
       <node ref="L4" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U3" pin="1" pinfunction="SW_1" pintype="passive"/>
       <node ref="U3" pin="2" pinfunction="SW_2" pintype="passive"/>
       <node ref="U3" pin="3" pinfunction="SW_3" pintype="passive"/>
     </net>
-    <net code="36" name="/Rail B Power Regulator/VrailB">
+    <net code="37" name="/Rail B Power Regulator/VrailB">
       <node ref="C14" pin="1" pintype="passive"/>
       <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="L4" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="R10" pin="2" pintype="passive"/>
       <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
       <node ref="U3" pin="14" pinfunction="VOS" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="FSW" pintype="passive"/>
     </net>
-    <net code="37" name="/Rail Output/VrailT">
+    <net code="38" name="/Rail Output/VrailT">
       <node ref="C10" pin="1" pintype="passive"/>
       <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="L3" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
       <node ref="R7" pin="1" pintype="passive"/>
       <node ref="U2" pin="14" pinfunction="VOS" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="FSW" pintype="passive"/>
     </net>
-    <net code="38" name="/Rail T Power Regulator/RailTReg_FB">
+    <net code="39" name="/Rail T Power Regulator/RailTReg_FB">
       <node ref="R7" pin="2" pintype="passive"/>
       <node ref="R8" pin="1" pintype="passive"/>
       <node ref="U2" pin="5" pinfunction="FB" pintype="passive"/>
     </net>
-    <net code="39" name="/Rail T Power Regulator/RailTReg_SS">
+    <net code="40" name="/Rail T Power Regulator/RailTReg_SS">
       <node ref="C9" pin="2" pintype="passive"/>
       <node ref="U2" pin="9" pinfunction="SS/TR" pintype="passive"/>
     </net>
-    <net code="40" name="/Rail T Power Regulator/RailTReg_Sw_Out">
+    <net code="41" name="/Rail T Power Regulator/RailTReg_Sw_Out">
       <node ref="L3" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U2" pin="1" pinfunction="SW_1" pintype="passive"/>
       <node ref="U2" pin="2" pinfunction="SW_2" pintype="passive"/>
       <node ref="U2" pin="3" pinfunction="SW_3" pintype="passive"/>
     </net>
-    <net code="41" name="Net-(LED1-K)">
+    <net code="42" name="Net-(LED1-K)">
       <node ref="LED1" pin="2" pinfunction="K" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
     </net>
-    <net code="42" name="unconnected-(J1-Pad3)">
+    <net code="43" name="unconnected-(J1-Pad3)">
       <node ref="J1" pin="3" pintype="passive+no_connect"/>
-    </net>
-    <net code="44" name="unconnected-(U1-PG-Pad4)">
-      <node ref="U1" pin="4" pinfunction="PG" pintype="passive+no_connect"/>
     </net>
     <net code="45" name="unconnected-(U4-PC14-OSCX_IN-Pad20)">
       <node ref="U4" pin="20" pinfunction="PC14-OSCX_IN" pintype="bidirectional+no_connect"/>

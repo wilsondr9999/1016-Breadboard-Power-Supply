@@ -1,11 +1,11 @@
 # BreadBrick
 #### The breadboard power supply *with flair*
 
-![[BreadBrick-OutputOn.jpg]]
+![[img/BreadBrick-OutputOn.jpg]]
 
-![[KiCad-3DRender.jpg]]
+![[img/KiCad-3DRender.jpg]]
 
-![[FreeCAD-Render.jpg]]
+![[img/FreeCAD-Render.jpg]]
 
 ## Why Another Breadboard Power Supply?
 
@@ -48,7 +48,7 @@ These licenses form a very restrictive license for this design and this project.
 - Worst-Case Efficiency: 84.0% at 17V input and 3.3V / 2A output
 - Worst-Case heat sink temperature: 51.1 C at full 2A load
 
-![[Efficiency-and-Temperature-Performance.png]]
+![[img/Efficiency-and-Temperature-Performance.png]]
 
 ## How To Build
 #### Ordering the PCB

@@ -6,6 +6,7 @@
 
 # Exclude any directory in the tree labeled .private or Extras
 **/.private/
+**/.obsidian/
 **/Extras/
 **/FreeCAD Project/Case/Testing/
 **/FreeCAD Project/Case/STL/v1/

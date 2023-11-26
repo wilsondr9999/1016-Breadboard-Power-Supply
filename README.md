@@ -5,7 +5,7 @@
 
 ![](img/KiCad-3DRender.jpg)
 
-![](FreeCAD-Render.jpg)
+![](img/FreeCAD-Render.jpg)
 
 ## Why Another Breadboard Power Supply?
 
@@ -29,11 +29,11 @@ Circuit design, schematics, and PCB layout were all done with [KiCad](https://ww
 
 Several different licenses apply to this repository and the files within.
 
-All schematics and circuit board designs in the project (all KiCad files), as well as all case designs (all FreeCAD files) are licensed under the [[LICENSE-CERN-OHL-S|CERN Open Hardware License Version 2 - Strongly Reciprocal (CERN-OHL-S)]].
+All schematics and circuit board designs in the project (all KiCad files), as well as all case designs (all FreeCAD files) are licensed under the [CERN Open Hardware License Version 2 - Strongly Reciprocal (CERN-OHL-S)](LICENSE-CERN-OHL-S).
 
-All software and firmware code in the project (all ) are licensed under the [[LICENSE-AGPL|GNU Affero General Public License v3.0 (AGPL 3.0)]].
+All software and firmware code in the project (all ) are licensed under the [GNU Affero General Public License v3.0 (AGPL 3.0)](LICENSE-AGPL).
 
-Documentation, Bill of Materials, pictures, and documentation (i.e. all other files not covered by the other two licenses above) are licensed under the [[LICENSE-CC-BY-SA-4.0|Creative Commons Attribution Share Alike 4.0 International License (CC-BY-SA-4.0)]].
+Documentation, Bill of Materials, pictures, and documentation (i.e. all other files not covered by the other two licenses above) are licensed under the [Creative Commons Attribution Share Alike 4.0 International License (CC-BY-SA-4.0)](LICENSE-CC-BY-SA-4.0).
 
 These licenses form a very restrictive license for this design and this project.  This is done specifically for a reason.  That reason is that this project is for the hobbyist, and the hobbyist only.  It is for those people who want to have one of these units to be able to make one for themselves.  What it is not for is for some no-name company to produce thousands of them and make money when they had nothing to do with the design and the hard work.  These licenses force anyone who wants to do that to share anything and everything that they derive from this work so that the community and the hobbyists have it also.
 
@@ -52,15 +52,15 @@ These licenses form a very restrictive license for this design and this project.
 
 ## How To Build
 #### Ordering the PCB
-To order this PCB, you can submit the ![Fabrication Exports.zip](KiCAD%20Project/Fabrication%20Exports/Fabrication%20Exports.zip) file (located in ![](KiCAD%20Project/Fabrication%20Exports/)) to your favorite PCB manufacturing company.  This is a 2 layer board so costs should be low.
+To order this PCB, you can submit the [Fabrication Exports.zip](KiCAD%20Project/Fabrication%20Exports/Fabrication%20Exports.zip) file (located in [KiCAD Project/Fabrication Exports/](KiCAD%20Project/Fabrication%20Exports/)) to your favorite PCB manufacturing company.  This is a 2 layer board so costs should be low.
 #### Ordering the Stencil
-If you want to assemble the board yourself, especially if you want to use a reflow oven, you can order a stencil using the [[1016 Breadboard Power Supply-F_Paste.gbr]] gerber layer.  This layer includes 2.5mm alignment pins on two corners, these are sized and located to fit on the [[1016 v2 Parametric Solder Stencil Jig.3mf|solder stencil jig]] that can be 3D-printed.  If instead you are having a PCB manufacturer assemble the SMD components for you, you do not need the solder stencil.
+If you want to assemble the board yourself, especially if you want to use a reflow oven, you can order a stencil using the [1016 Breadboard Power Supply-F_Paste.gbr](KiCAD%20Project/Fabrication%20Exports/1016%20Breadboard%20Power%20Supply-F_Paste.gbr) gerber layer.  This layer includes 2.5mm alignment pins on two corners, these are sized and located to fit on the [solder stencil jig](FreeCAD%20Project/Parametric%20Solder%20Stencil%20Jig/1016%20v2%20Parametric%20Solder%20Stencil%20Jig.3mf) that can be 3D-printed.  If instead you are having a PCB manufacturer assemble the SMD components for you, you do not need the solder stencil.
 #### Ordering Parts
-If you're assembling yourself, you'll need to order parts.  The [[1016 Breadboard Power Supply.csv]] file located in the [[KiCAD Project/BOM]] folder contains all parts and manufacturer part numbers.
+If you're assembling yourself, you'll need to order parts.  The [1016 Breadboard Power Supply.csv](KiCAD%20Project/BOM/1016%20Breadboard%20Power%20Supply.csv) file located in the [KiCAD Project/BOM/](KiCAD%20Project/BOM/) folder contains all parts and manufacturer part numbers.
 #### Assembling the PCB
-The [[ibom.html]] file located in the [[KiCAD Project/BOM]] folder is generated from the [KiCad Interactive BOM plug-in](https://github.com/openscopeproject/InteractiveHtmlBom), and can help you mark which parts have been placed on the board prior to reflow.
+The [ibom.html](KiCAD%20Project/BOM/ibom.html) file located in the [KiCAD Project/BOM/](KiCAD%20Project/BOM/) folder is generated from the [KiCad Interactive BOM plug-in](https://github.com/openscopeproject/InteractiveHtmlBom), and can help you mark which parts have been placed on the board prior to reflow.
 
-Be very careful placing the LEDs.  The silkscreen marks pin 1 of the LED, but in accordance with the [[[DS-006] Wurth Elektronik 150060VS75003.pdf|datasheets]] for the Wurth Elektronik LEDs, the pin 1 marking is NOT the cathode as would normally be expected.
+Be very careful placing the LEDs.  The silkscreen marks pin 1 of the LED, but in accordance with the [datasheets](Datasheets/[DS-006]%20Wurth%20Elektronik%20150060VS75003.pdf) for the Wurth Elektronik LEDs, the pin 1 marking is NOT the cathode as would normally be expected.
 
 After placing components, reflow the board in a reflow oven, hot plate, or use a hot air station.
 #### Through-Hole Components
@@ -68,7 +68,7 @@ You will need to solder three through-hole components -- the DC power jack (PJ-1
 #### Heat Sinks
 The two heat sinks are glued onto the back side of the board using thermal adhesive.  Note that this is thermal adhesive (glue), not just an ordinary thermal compound or thermal paste.  The adhesive is required, there is no other mechanical support for the heat sinks.  I successfully used the [Gennel G109 Thermal Conductive Glue](https://www.amazon.com/dp/B072MSXHJD?psc=1&ref=ppx_yo2ov_dt_b_product_details).
 #### 3D Printing the Case
-The case can be 3D printed using the [[FreeCAD Project/Case/STL/Case Top-Bottom.3mf|Case Top-Bottom.3mf]], [[FreeCAD Project/Case/STL/Case Top-Bottom.3mf|Button.3mf]], and [[FreeCAD Project/Case/STL/LED Lens.3mf|LED Lens.3mf]] files and [PrusaSlicer](https://www.prusa3d.com/page/prusaslicer_424/), or if you want to slice the .stl files yourself, the .stl files are also included in the [[FreeCAD Project/Case/STL]] folder.  Printing settings are as follows:
+The case can be 3D printed using the [Case Top-Bottom.3mf](FreeCAD%20Project/Case/STL/Case%20Top-Bottom.3mf), [Button.3mf](FreeCAD%20Project/Case/STL/Button.3mf), and [LED Lens.3mf](FreeCAD%20Project/Case/STL/LED%20Lens.3mf) files and [PrusaSlicer](https://www.prusa3d.com/page/prusaslicer_424/), or if you want to slice the .stl files yourself, the .stl files are also included in the [FreeCAD Project/Case/STL](FreeCAD%20Project/Case/STL/) folder.  Printing settings are as follows:
 - 0.12mm Layer Height
 - 0.4mm Nozzle
 - PETG material, do not use PLA.  The snap-together design needs a flexible plastic, PLA is too brittle and will likely break when trying to snap together the case.  Also, PLA is not as temperature-resistant as PETG, and the heat sinks could cause problems with PLA.
@@ -77,7 +77,7 @@ The case can be 3D printed using the [[FreeCAD Project/Case/STL/Case Top-Bottom.
 - The upper case half prints with a thin bridge covering the LED lens holes, you will need to clean out the bridges with a hobbyist knife prior to inserting the LED lenses.
 - It is critical that the buttons are printed to accurate dimensions as the clearances and travel are very small.  Print the buttons at a very slow speed with adequate time for each layer to cool to prevent any warping or distortion.  The .3mf file already has these settings pre-set.
 #### Programming Firmware to the STM32
-The STM32C011F4 firmware is the [[1016 Breaadboard Power Supply.elf]] file located in the [[STM32 Project/Debug]] folder.  This can be programmed to the STM32C011F4 using the [ST-Link/V2](https://www.st.com/en/development-tools/st-link-v2.html) debugger and the [Tag-Connect ARM20-CTX SWD Solution](https://www.tag-connect.com/debugger-cable-selection-installation-instructions/st-link-v2#49_126_145).  The 6-pin Tag-Connect connector connects with the J2 connector on the PCB, and the [STM32CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html) software can write the firmware to the MCU.
+The STM32C011F4 firmware is the [1016 Breadboard Power Supply.elf](STM32%20Project/Debug/1016%20Breaadboard%20Power%20Supply.elf) file located in the [(STM32 Project/Debug/]((STM32%20Project/Debug/) folder.  This can be programmed to the STM32C011F4 using the [ST-Link/V2](https://www.st.com/en/development-tools/st-link-v2.html) debugger and the [Tag-Connect ARM20-CTX SWD Solution](https://www.tag-connect.com/debugger-cable-selection-installation-instructions/st-link-v2#49_126_145).  The 6-pin Tag-Connect connector connects with the J2 connector on the PCB, and the [STM32CubeProgrammer](https://www.st.com/en/development-tools/stm32cubeprog.html) software can write the firmware to the MCU.
 
 Note that if you order the Tag-Connect SWD solution, you need the "No-Legs" version of the package that includes the TC-2030-IDC-NL cable.  The version of the cable with legs (TC-2030-IDC) will not properly fit this PCB.
 #### Assembling the Unit
@@ -91,12 +91,12 @@ Once the PCB has been populated and soldered with the SMD and THT components, th
 - Tape the buttons in place on the top side.  Fold the tape around the protruding button so that the button is at the top of it's travel (most protrusion).
 - Insert the PCB into the case bottom with the components up and the heat sinks down.  The heat sinks will fit inside the cooling passages, and the holes in the PCB will fit on the support pins.
 - Carefully fit the top half with the taped buttons onto the bottom half, and carefully get the two halves to mate and snap together.
-- Remove the tape from the buttons and re-check that the buttons are working properly.  If you need to get the case apart again, you will need to use a spudger to pry the case apart.
+- Remove the tape from the buttons and re-check that the buttons are working properly.  If you need to get the case apart again, you will need to use a [spudger](https://www.amazon.com/MMOBIEL-Pieces-Professional-Spudger-Toolkit/dp/B00UNBTM5U/ref=sr_1_4?keywords=spudger&sr=8-4) to pry the case apart.
 
 ## Using the Breadboard Power Supply
 Plug the unit into your breadboard into the power rails.  As you're looking at the unit, the power arms/leads should point towards your right.  In this position, the TOP pins of each rail (furthest away from you) are the positive voltage, the BOTTOM pins of each rail (closest to you) are the reference voltage (ground).  Orient your breadboard so that the red/positive row of pins aligns with the positive pin of the unit (away from you).  If your breadboard is turned 180 degrees, the colors of the power rails will be opposite, and will cause confusion.
 
-Power the unit using a DC barrel jack and power supply.  The jack is a standard 2.5mm x 5.5mm DC barrel jack, the center pin is the positive lead.  The unit has reverse power protection, so if your power supply uses ground for the center pin, you will not damage the unit, but it will not power on.  Your power supply should be between 7V and 17V output, and should provide at least 24W of power.  The standard supply that the unit was designed for is a [12V, 2A supply](https://www.amazon.com/Chanzon-Switching-Adapter-100-240V-Transformer/dp/B07HNL5D56/ref=sr_1_19?keywords=12v+2a+power+supply&sr=8-19). 
+Power the unit using a DC barrel jack and power supply.  The jack is a standard 2.5mm x 5.5mm DC barrel jack, the center pin is the positive lead.  The unit has reverse power protection, so if your power supply uses ground for the center pin, you will not damage the unit, but it will not power on.  Your power supply should be between 7V and 17V output, and should provide at least 24W of power.  The standard supply that the unit was designed for is a [12V, 2A supply](https://www.amazon.com/Chanzon-Switching-Adapter-100-240V-Transformer/dp/B07HNL5D56/ref=sr_1_19?keywords=12v+2a+power+supply&sr=8-19).  
 
 Once the unit is powered on, it will self-test all LEDs.  You should see them sequentially light.
 

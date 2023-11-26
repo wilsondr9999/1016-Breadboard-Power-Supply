@@ -1,9 +1,9 @@
 # BreadBrick
 #### The breadboard power supply *with flair*
 
-![](BreadBrick-OutputOn.jpg)
+![](img/BreadBrick-OutputOn.jpg)
 
-![](KiCad-3DRender.jpg)
+![](img/KiCad-3DRender.jpg)
 
 ![](FreeCAD-Render.jpg)
 
@@ -48,11 +48,11 @@ These licenses form a very restrictive license for this design and this project.
 - Worst-Case Efficiency: 84.0% at 17V input and 3.3V / 2A output
 - Worst-Case heat sink temperature: 51.1 C at full 2A load
 
-![](Efficiency-and-Temperature-Performance.png)
+![](img/Efficiency-and-Temperature-Performance.png)
 
 ## How To Build
 #### Ordering the PCB
-To order this PCB, you can submit the [[Fabrication Exports.zip]] file (located in [[KiCAD Project/Fabrication Exports]]) to your favorite PCB manufacturing company.  This is a 2 layer board so costs should be low.
+To order this PCB, you can submit the ![Fabrication Exports.zip](KiCAD%20Project/Fabrication%20Exports/Fabrication%20Exports.zip) file (located in ![](KiCAD%20Project/Fabrication%20Exports/)) to your favorite PCB manufacturing company.  This is a 2 layer board so costs should be low.
 #### Ordering the Stencil
 If you want to assemble the board yourself, especially if you want to use a reflow oven, you can order a stencil using the [[1016 Breadboard Power Supply-F_Paste.gbr]] gerber layer.  This layer includes 2.5mm alignment pins on two corners, these are sized and located to fit on the [[1016 v2 Parametric Solder Stencil Jig.3mf|solder stencil jig]] that can be 3D-printed.  If instead you are having a PCB manufacturer assemble the SMD components for you, you do not need the solder stencil.
 #### Ordering Parts

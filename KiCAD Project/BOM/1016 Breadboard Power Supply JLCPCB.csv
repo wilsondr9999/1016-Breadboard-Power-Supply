@@ -1,0 +1,30 @@
+Comment,Designator,Footprint,JLCPCB Part #
+Pi Filter Capacitor,"C1, C2",Capacitor_SMD:C_0805_2012Metric,C602037
+Input Capacitor,"C3, C7, C11",Capacitor_SMD:C_0603_1608Metric,C96446
+Bypass Capacitor,"C4, C8, C12, C15",Capacitor_SMD:C_0603_1608Metric,C1590
+Startup Capacitor,"C5, C9, C13",Capacitor_SMD:C_0603_1608Metric,C519423
+Output Capacitor,"C6, C10, C14",Capacitor_SMD:C_0603_1608Metric,C159801
+TVS Suppression Diode,CR1,SOD-123F_LTF,C3719828
+PTC Resettable Fuse,F1,FUSE_SMD1812B110TF_YAG,C269149
+Pi Filter Inductor,"L1, L2, L3, L4",VLS5045EX330M,C434831
+Power On LED,"LED1, LED4, LED5",1016:LEDC1608X80N,C965852
+Error LED,LED2,1016:LEDC1608X80N,C965799
+Output LED,LED3,1016:LEDC1608X80N,C965801
+3V3 Top Rail LED,"LED6, LED7",1016:LEDC1608X80N,C965852
+RPP MOSFET,Q1,1016:BUK6D12060PX,C503628
+RPP Zener Resistor,R1,Resistor_SMD:R_0603_1608Metric,C185353
+Power On LED Resistor,R2,Resistor_SMD:R_0805_2012Metric,C114572
+Feedback Rtop,R3,Resistor_SMD:R_0603_1608Metric,C14675
+Feedback Rbot,R4,Resistor_SMD:R_0603_1608Metric,C185339
+Power Good Pull-Up Resistor,"R5, R6, R10, R14",Resistor_SMD:R_0603_1608Metric,C98220
+Feedback Rtop,"R7, R11",Resistor_SMD:R_0603_1608Metric,C123420
+Feedback Rbot,"R8, R12",Resistor_SMD:R_0603_1608Metric,C273741
+Feedback Rbot,"R9, R13",Resistor_SMD:R_0603_1608Metric,C273777
+Error LED Resistor,R15,Resistor_SMD:R_0603_1608Metric,C227839
+Output LED Resistor,R16,Resistor_SMD:R_0603_1608Metric,C185331
+5V Top Rail LED Resistor,"R17, R18",Resistor_SMD:R_0603_1608Metric,C227706
+3V3 Top Rail Resistor,"R19, R20",Resistor_SMD:R_0603_1608Metric,C273768
+Output Enable Btn,"S1, S2",PTS636SK25JSMTRLFS,C2800965
+MCU Regulator,"U1, U2, U3",QFN50P300X300X100-17N-D,C337502
+Microcontroller,U4,UFQFPN20_3X3_STM,C5456188
+RPP Zener Diode,Z1,SOD3716X145N,C85181
